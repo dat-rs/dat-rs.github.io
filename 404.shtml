@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-111744030-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-111744030-1');
+</script>
+
+  <title>Office of Ricardo Santos — 404 not found</title>
+<meta name="description" content="Graphic design. Illustration. Kindness. From Lisbon to the world." />
+
+<!-- Twitter Card data -->
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@dat_rs2">
+<meta name="twitter:title" content="Office of Ricardo Santos — The Light City Poster">
+<meta name="twitter:description" content="Graphic design. Illustration. Kindness. From Lisbon to the world.">
+<meta name="twitter:creator" content="@dat_rs2">
+<!-- Twitter Summary card images must be at least 120x120px -->
+<meta name="twitter:image" content="http://dat-rs.com/rs-og-2.png">
+
+<!-- Open Graph data -->
+<meta property="og:title" content="Office of Ricardo Santos — The Light City Poster" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://dat-rs.com/" />
+<meta property="og:image" content="http://dat-rs.com/rs-og-2.png" />
+<meta property="og:description" content="Graphic design. Illustration. Kindness. From Lisbon to the world." /> 
+<meta property="og:site_name" content="Office of Ricardo Santos" />
+<meta property="fb:admins" content="Facebook numeric ID" />
+	
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-		beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700" rel="stylesheet">
+
+	<style>
+		
+	body, html {
+    	height: 100%;
+    	margin: 0;
+}
+
+	.bg {
+    	/* The image used */
+    	background-image: url("404-npf-2.jpg");
+
+    	/* Full height */
+    	height: 100%; 
+
+    	/* Center and scale the image nicely */
+    	background-position: center;
+    	background-repeat: no-repeat;
+    	background-size: cover;
+		
+	</style>
+	</head>
+
+<body>
+
+	<div class="bg"></div>
+	
+	
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+  <!-- Masonry -->
+  <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+  <!-- ImagesLoaded -->
+  <script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script>
+    // init Masonry
+    var $grid = $('.grid').masonry({
+      // options
+      itemSelector: '.grid-item',
+      columnWidth: '.grid-sizer'
+    });
+    // layout Masonry after each image loads
+    $grid.imagesLoaded().progress(function() {
+      $grid.masonry('layout');
+    });
+  </script>
+
+
+</body>
+
+</html>
