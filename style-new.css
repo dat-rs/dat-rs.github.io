@@ -179,8 +179,9 @@ button.sub-button, .sub-button {
     border: none;
     border-bottom: 1px solid black;
 	padding: 0;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
     line-height: 17px;
+    display: inline-block;
 }
 
 
