@@ -1,6 +1,10 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.slideshow-ctrl {
+    cursor: pointer;
+}
+
 .grid-item-hover {
     opacity: 0;
     position: absolute;
