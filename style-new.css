@@ -1,22 +1,52 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.grid-img-2-info {
+.grid-item-hover {
     opacity: 0;
     position: absolute;
     top: 0px;
 	left: 8px;
-    background-color: white;
-    width: 100%;
-
+    background-color: #F2F2F2;
+    color: black;
+    width: 97%;
+    height: 100%;
+    background-origin: padding-box;
  
 }
 
-.grid-img-2:hover .grid-img-2-info {
+.grid-item:hover .grid-item-hover {
     opacity: 100;
+    transition: 0.2s;
+    z-index: 1000;
     
 }
 
+.grid-item-smile-2 {
+    background-image: url(smile.png);
+    background-repeat: no-repeat;
+    background-size: 25px;
+    width: 25px;
+    height: 25px;
+    animation: smile-hue 3s infinite linear;
+    display: block;
+    margin-left: 9px;
+    margin-top: 3px;
+    display: inline-block;
+}
+
+
+.grid-item-hover .prj-title {
+    color: black!important;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-weight: 400;
+    color: 
+}
+
+.grid-prj-about {
+    display: inline;
+    font-style: italic;
+}
 
 body {
 	font-family: "Helvetica Neue", Helvetica, "Aileron",Arial, sans-serif;
@@ -368,6 +398,7 @@ h2.quoted-title::after, .quoted-text::after {
 
 .grid-img {
     max-width: 100%;
+    background-color: black;
 }
 
 .pdd-img {
@@ -393,6 +424,10 @@ a.about-link {
 #play-p, #play-a {
     display: inline-block;
     transform: translateY(-3px);
+}
+
+.grid-item {
+    
 }
 
 
@@ -526,14 +561,14 @@ a.about-link {
 		}
 
 	.grid-item-smile {
-		position: absolute;
-		top: 10px;
-		right: 19px;
+		position: relative;
+		top: 0px;
+		right: 5px;
 		background-origin: content-box;
 		}
 
 	.grid-item:hover .grid-item-smile {
-		display: inline-block;
+		display: inline;
 
 		}
 	
