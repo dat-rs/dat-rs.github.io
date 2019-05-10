@@ -111,6 +111,13 @@ h3.more-text {
 	line-height: 16px;
 }
 
+.footer {
+    padding-top: 100px;
+	background-color: #F2F2F2;
+    font-size: 14px;
+	line-height: 16px;
+}
+
 .header-col {
     margin-bottom: 15px;
 }
