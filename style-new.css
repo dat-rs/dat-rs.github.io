@@ -116,6 +116,12 @@ h3.more-text {
 	background-color: #F2F2F2;
     font-size: 14px;
 	line-height: 16px;
+
+}
+
+#contact-footer {
+    position: absolute;
+    bottom: 0;
 }
 
 .header-col {
@@ -263,6 +269,7 @@ button.sub-button:focus, button.sub-button:active {
 	margin-top: 15px;
 	/* fucks scrolling */
 	/* overflow-x: hidden; */
+    height: 100%;
 }
 
 .blog {
