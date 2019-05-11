@@ -158,7 +158,7 @@ h3.more-text {
 	overflow-x: hidden;
 	font-family: 'IBM Plex Mono', monospace;
     text-transform: uppercase;
-	font-size: 10.5px;
+	font-size: 10.0px;
 	line-height: 1.5;
 	letter-spacing: normal;
     background-color: #FFB400!important;
@@ -287,11 +287,15 @@ button {
 	line-height: 1.5;
 }
 
-.para-text, .list-prj-tags, .caption, .footnotes, .footnote, .list-prj-date {
+.para-text, .caption, .footnotes, .footnote, .list-prj-date {
 	font-family: 'IBM Plex Mono', monospace;
 	font-size: 14px;
 	letter-spacing: 0;
 	line-height: 1.5;
+}
+
+.list-prj-tags {
+    font-size: 6px;
 }
 
 .caption, .footnotes, .footnote, .list-prj-tags, .list-prj-date {
@@ -482,7 +486,7 @@ a.about-link {
     
     .para-text, .list-prj-tags, .caption, .footnotes, .footnote, button, .list-prj-date {
 	font-family: 'IBM Plex Mono', monospace;
-	font-size: 12px;
+	font-size: 11.5px;
 	letter-spacing: 0;
 	line-height: 1.5;
 }
