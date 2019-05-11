@@ -245,6 +245,10 @@ button.sub-button, .sub-button {
 	border-bottom: 1px solid black;
 }
 
+.first-p {
+    margin-top: 30px;
+}
+
 .list-title a {
 	border-bottom: none;
 	animation: none;
