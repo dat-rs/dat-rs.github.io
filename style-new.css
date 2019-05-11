@@ -310,7 +310,7 @@ sup {
 	margin-top: 15px;
     column-span: all;
     text-transform: uppercase;
-    font-size: 11px!important;
+    font-size: 10.5px!important;
 }
 
 .prj-tags {
@@ -350,14 +350,11 @@ h2.blog-title {
 	
 }
 
-h2.quoted-title, .quoted-text {
+.quoted-text {
   quotes: "«" "»";
 }
-h2.quoted-title::before {
-  content: open-quote;
-  margin-left: -10px;
-}
-h2.quoted-title::after, .quoted-text::after {
+
+.quoted-text::after {
   content: close-quote;
 }
 
@@ -370,7 +367,7 @@ h2.quoted-title::after, .quoted-text::after {
 	padding-top: 100px;
 }
 
-.list-item:hover .list-title a, h2.prj-title, h2.quoted-title, strong.fancy {
+.list-item:hover .list-title a, h2.prj-title, h2.prj-title, strong.fancy {
 
 	color: #FFB400!important;
 	animation: smile-hue 3s infinite linear;
