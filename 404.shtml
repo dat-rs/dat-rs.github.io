@@ -51,7 +51,7 @@
 
 	.bg {
     	/* The image used */
-    	background-image: url("404-npf-2.jpg");
+    	background-image: url("images/404-npf-2.jpg");
 
     	/* Full height */
     	height: 100%; 
@@ -62,7 +62,7 @@
     	background-size: cover;
 		
 	</style>
-	</head>
+</head>
 
 <body>
 

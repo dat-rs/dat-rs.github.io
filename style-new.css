@@ -30,7 +30,7 @@
 }
 
 .grid-item-smile-2 {
-    background-image: url(smile.png);
+    background-image: url(images/smile.png);
     background-repeat: no-repeat;
     background-size: 25px;
     width: 25px;
@@ -570,7 +570,7 @@ a.about-link {
 @media (pointer: fine) {
   
 	.list-item-smile, .grid-item-smile {
-		background-image: url(smile.png);
+		background-image: url(images/smile.png);
 		background-repeat: no-repeat;
 		background-size: 20px;
 		display: none;
