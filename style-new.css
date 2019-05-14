@@ -5,6 +5,9 @@
     cursor: pointer;
 }
 
+.slideshow {
+    padding-bottom: 15px;
+}
 .row.not-first {
     margin-top: 30px;
 }
@@ -120,11 +123,20 @@ h3.more-text {
 }
 
 .footer {
-    padding-top: 100px;
+    padding-top: 10px;
 	background-color: #F2F2F2;
     font-size: 14px;
 	line-height: 16px;
 
+}
+
+.sub-footer {
+    margin-top: 100px;
+	padding-top: 7.5px;
+	overflow-x: hidden;
+    background-color: #FFB400!important;
+	animation: smile-hue 10s infinite linear;
+    z-index: 100;
 }
 
 #contact-footer {
