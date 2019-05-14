@@ -286,6 +286,7 @@ button.sub-button:focus, button.sub-button:active {
 
 .main {
 	margin-top: 15px;
+    margin-bottom: 45px;
 	/* fucks scrolling */
 	/* overflow-x: hidden; */
     height: 100%;
@@ -308,7 +309,7 @@ button {
 
 .para-text, .caption, .footnotes, .footnote, .list-prj-date {
 	font-family: 'IBM Plex Mono', monospace;
-	font-size: 14px;
+	font-size: 12px;
 	letter-spacing: 0;
 	line-height: 1.5;
 }
