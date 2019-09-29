@@ -314,7 +314,8 @@ button {
 }
 
 .list-prj-tags {
-    font-size: 6px;
+    font-family: 'IBM Plex Mono', monospace;
+	font-size: 11px;
 }
 
 .caption, .footnotes, .footnote, .list-prj-tags, .list-prj-date {
