@@ -67,7 +67,7 @@ body {
 	font-size: 14px;
 	font-weight: 400;
 	line-height: 100%;
-	letter-spacing: -0.5px;
+	letter-spacing: -0.3px;
 	overflow-x: hidden;
 	width: 100%;
     background-color: #F2F2F2;
@@ -266,7 +266,7 @@ button.sub-button, .sub-button {
 .list-title a {
 	border-bottom: none;
 	animation: none;
-    font-size: 22px;
+    font-size: 14px;
 }
 
 .cta {
@@ -401,13 +401,10 @@ h2.blog-title {
 	animation: none;
 }
 
-#container-list {
-
-}
-
 .list-title a {
 	display: inline-block;
-	width: 100%
+	width: 100%;
+    font-weight: 400;
 }
 
 .list-prj-tags {
@@ -420,8 +417,8 @@ h2.blog-title {
 .list-item::after {
 	content: "";
 	display: block;
-	padding-top: 15px;
-	border-bottom: 1px solid black;
+	padding-top: 5px;
+	border-bottom: 5px solid lightgray;
 }
 
 .list-prj-date::before {
