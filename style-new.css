@@ -1,6 +1,18 @@
 @charset "UTF-8";
 /* CSS Document */
 
+.novelty-highlight {
+    font-family: 'Ultra';
+    font-size: 26px;
+    letter-spacing: 0;
+}
+
+.novelty-highlight-2 {
+    font-family: 'Creepster';
+    font-size: 27px;
+    letter-spacing: 0.5px;
+}
+
 .slideshow-ctrl {
     cursor: pointer;
 }
@@ -83,7 +95,7 @@ h1 {
 }
 
 h2 {
-	font-size: 26px;
+	font-size: 27px;
 	font-weight: 500;
 	margin-bottom: 5px;
     column-span: all;
