@@ -1,15 +1,15 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.novelty-highlight {
+.nh {
     font-family: 'Ultra';
-    font-size: 26px;
+    font-size: 24px;
     letter-spacing: 0;
 }
 
-.novelty-highlight-2 {
+.nh-2 {
     font-family: 'Creepster';
-    font-size: 27px;
+    font-size: 24px;
     letter-spacing: 0.5px;
 }
 
@@ -62,11 +62,9 @@
 
 
 .grid-item-hover .prj-title {
-    color: black!important;
     padding-top: 5px;
     padding-left: 10px;
-    font-weight: 400;
-    color: 
+    
 }
 
 .grid-prj-about {
@@ -95,10 +93,13 @@ h1 {
 }
 
 h2 {
-	font-size: 27px;
-	font-weight: 500;
+	font-size: 25px;
+	font-weight: 400;
 	margin-bottom: 5px;
     column-span: all;
+    line-height: 1.2;
+    max-width: 90%;
+    color: #000;
 }
 
 h3.sub-sub {
@@ -369,7 +370,7 @@ p.text, p.more-text, p.quoted-text, p.para-text {
 }
 
 .quote {
-	font-family: 'Noto Serif', serif;
+	font-family: Hoefler Text, Times New Roman, Serif;
 	line-height: 1.5;
 	margin-right: 50px;
 }	
@@ -402,7 +403,7 @@ h2.blog-title {
 	padding-top: 100px;
 }
 
-.list-item:hover .list-title a, h2.prj-title, h2.prj-title, strong.fancy {
+.list-item:hover .list-title a, strong.fancy {
 
 	color: #FFB400!important;
 	animation: smile-hue 3s infinite linear;
