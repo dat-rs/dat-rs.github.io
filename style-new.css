@@ -37,13 +37,15 @@
     width: 97%;
     height: 100%;
     background-origin: padding-box;
+    
  
 }
 
 .grid-item:hover .grid-item-hover {
-    opacity: 100;
+    opacity: 20;
     transition: 0.2s;
     z-index: 1000;
+    background-color: rgba(240,240,240,0.50);
     
 }
 
@@ -64,6 +66,7 @@
 .grid-item-hover .prj-title {
     padding-top: 5px;
     padding-left: 10px;
+    
     
 }
 
