@@ -180,10 +180,14 @@ h3.more-text {
 	overflow-x: hidden;
 }
 
-
 .sub-header {
-	padding-top: 117px;
-	overflow-x: hidden;
+    padding-top: 117px;
+    overflow-x: hidden;
+    z-index: 100;
+}
+
+.sub-header, .prjs-menu-grid-item {
+	
 	font-family: 'IBM Plex Mono', monospace;
     text-transform: uppercase;
 	font-size: 10.0px;
@@ -191,7 +195,11 @@ h3.more-text {
 	letter-spacing: normal;
     background-color: #FFB400!important;
 	animation: smile-hue 10s infinite linear;
-    z-index: 100;
+    
+}
+
+.prjs-menu-grid-item {
+    height: 100%;
 }
 
 .sub-header-col {
