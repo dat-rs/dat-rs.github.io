@@ -126,6 +126,11 @@ h3.more-text {
 	margin-bottom: 0px;
 }
 
+h3.serif {
+    font-family: 'IBM Plex Serif';
+    font-weight: 700;
+    font-size: 14px;
+}
 
 .header {
 	padding-top: 10px;
@@ -188,10 +193,10 @@ h3.more-text {
 
 .sub-header, .prjs-menu-grid-item {
 	
-	font-family: 'IBM Plex Mono', monospace;
+	font-family: 'IBM plex sans', monospace;
     text-transform: uppercase;
-	font-size: 10.0px;
-	line-height: 1.5;
+	font-size: 10px;
+	line-height: 1;
 	letter-spacing: normal;
     background-color: #FFB400!important;
 	animation: smile-hue 10s infinite linear;
@@ -231,8 +236,6 @@ h3.more-text {
 a.top-link, button.sub-button {
 	color: black;
     background-color: transparent;
-    line-height: 20px;
-    
     letter-spacing: 0;
 }
 
@@ -242,7 +245,7 @@ a.top-link {
 }
 
 a.top-link:hover, a.top-link.selected, .sub-button.selected , button.sub-button:focus, button.sub-button:hover, .top-link.active, .sub-button:hover {
-	font-weight: 700;
+	font-weight: 500;
 }
 
 #store-link {
@@ -260,7 +263,7 @@ button.sub-button, .sub-button {
 	cursor:pointer;
     letter-spacing: 0.3px;
     text-transform: uppercase;
-    font-size: 10.5px;
+    font-size: 10px;
     border: none;
     border-bottom: 1px solid black;
 	padding: 0;
@@ -269,6 +272,10 @@ button.sub-button, .sub-button {
     display: inline-block;
 }
 
+.sub-button {
+    display: inline-block;
+    margin-right: 5px;
+}
 
 .collapse.show {
     display: flex;
@@ -324,22 +331,27 @@ img {
 }
 
 button {
-    font-family: 'IBM Plex Mono', monospace;
-    font-size: 12px;
+    font-family: 'IBM plex sans', monospace;
+    font-size: 10px;
     letter-spacing: 0;
 	line-height: 1.5;
 }
 
 .para-text, .caption, .footnotes, .footnote, .list-prj-date {
-	font-family: 'IBM Plex Mono', monospace;
+	font-family: 'IBM plex sans', monospace;
 	font-size: 12px;
 	letter-spacing: 0;
-	line-height: 1.5;
+	line-height: 1;
+}
+
+.list-prj-date, .list-prj-tags, h2.list-title {
+    display: inline!important;
+    margin-left: 5px;
 }
 
 .list-prj-tags {
-    font-family: 'IBM Plex Mono', monospace;
-	font-size: 11px;
+    font-family: 'IBM plex sans', monospace;
+	font-size: 12px;
 }
 
 .caption, .footnotes, .footnote, .list-prj-tags, .list-prj-date {
@@ -349,15 +361,15 @@ button {
 }
 
 sup {
-	font-family: 'IBM Plex Mono', monospace;
+	font-family: 'IBM plex sans', monospace;
 	color: darkgray;
 }
 
 .prj-deets {
 	margin-top: 15px;
     column-span: all;
-    text-transform: uppercase;
-    font-size: 10.5px!important;
+    font-size: 12px;
+    font-weight: 500;
 }
 
 .prj-tags {
@@ -390,25 +402,19 @@ h2.list-title {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	white-space: nowrap;
-	width: 100%;
+	/*width: 100%;*/
+    margin-bottom: 0!important;
 }
 
 h2.blog-title {
 	
 }
 
-.quoted-text {
-  quotes: "«" "»";
+.serif-text {
+  font-family: 'IBM Plex Serif';
+    line-height: 1.5;
 }
 
-.quoted-text::after {
-  content: close-quote;
-}
-
-.quoted-text::before {
-	content: open-quote;
-	margin-left: -10px;
-}
 
 .sub-title {
 	padding-top: 100px;
@@ -427,7 +433,7 @@ h2.blog-title {
 
 .list-title a {
 	display: inline-block;
-	width: 100%;
+	/*width: 100%;*/
     font-weight: 400;
 }
 
@@ -441,12 +447,14 @@ h2.blog-title {
 .list-item::after {
 	content: "";
 	display: block;
-	padding-top: 5px;
-	border-bottom: 5px solid lightgray;
+	padding-top: 0px;
+    padding-bottom: -5px!important;
+    margin-bottom: -20px!important;
+	border-bottom: 1px solid lightgray;
 }
 
 .list-prj-date::before {
-    content: "↳ ";
+    content: "→ ";
 }
 
 .list-prj-tags::before {
@@ -490,6 +498,18 @@ a.about-link {
     
 }
 
+.prj-footer {
+    color: #f2f2f2;
+    background-color: black;
+    padding-top: 35px;
+    padding-bottom: 0px;
+}
+
+.prj-footer-title {
+    color: #f2f2f2;
+    padding-bottom: 0;
+    margin-bottom: -2px
+}
 
 @keyframes smile-hue {
 	
@@ -525,8 +545,9 @@ a.about-link {
 @media (min-width: 768px) {
     
     .para-text, .list-prj-tags, .caption, .footnotes, .footnote, button, .list-prj-date {
-	font-family: 'IBM Plex Mono', monospace;
-	font-size: 11px;
+	font-family: 'IBM plex sans', monospace;
+	font-size: 12px;
+    font-weight: 400;
 	letter-spacing: 0;
 	line-height: 1.5;
 }
@@ -537,7 +558,7 @@ a.about-link {
     
 	.sub-header {
 		padding-top: 100px;
-        font-size: 10.5px;
+        
 	}
 
 	.list-prj-tags {
@@ -567,7 +588,7 @@ a.about-link {
 		padding-top: 65px;
 	}
 
-    p.text, p.more-text, p.quoted-text {
+    p.text, p.more-text, p.serif-text {
 	max-width: 90%;
     }
 

@@ -36,6 +36,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="bootstrap.css">
 	<link rel="stylesheet" href="style-new.css">
+<link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Ultra&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Creepster&display=swap" rel="stylesheet">
  
@@ -94,20 +96,19 @@
             
             <div class="grid-item col-6 col-lg-4 selected poster grid-img-2 sub-header-col">
 				
-				<a id="sub-header-subtitle" data-toggle="collapse" href="#sub-header-collapse-row" role="button" aria-expanded="true" aria-controls="sub-header-collapsable-row">↳ view:</a>
-                
+				<a id="sub-header-subtitle" data-toggle="collapse" href="#sub-header-collapse-row" role="button" aria-expanded="true" aria-controls="sub-header-collapsable-row">↳ view:</a>   
 
 			</div>			
 			
 			<div class="grid-item col-6 col-lg-4 selected poster grid-img-2 sub-header-col">
 			    
-                <a id="sub-header-subtitle" data-toggle="collapse" href="#sub-header-collapse-row" role="button" aria-expanded="true" aria-controls="sub-header-collapsable-row">↳ filter by type:</a>
+                <a class="sub-header-subtitle" data-toggle="collapse" href="#sub-header-collapse-row" role="button" aria-expanded="true" aria-controls="sub-header-collapsable-row">↳ filter by type:</a> 
 			
 			</div>
             
             <div class="d-none d-lg-flex grid-item col-6 col-lg-4 selected poster grid-img-2 sub-header-col">
 			    
-                <a id="sub-header-subtitle" data-toggle="collapse" href="#sub-header-collapse-row" role="button" aria-expanded="true" aria-controls="sub-header-collapsable-row">↳ more:	</a>	
+                <a class="sub-header-subtitle" data-toggle="collapse" href="#sub-header-collapse-row" role="button" aria-expanded="true" aria-controls="sub-header-collapsable-row">↳ more:	</a>
                 
 			</div>
             
@@ -120,7 +121,7 @@
 				
 				<a href="index-list.html" class="sub-button selected">list</a>/<a href="/index.html" class="sub-button">grid</a>
 			
-			</div>			
+			</div>
 			
 			<div class="grid-item col-6 col-lg-4 grid-img-2 sub-header-col">
 				<div class="button-group filter-button-group" style="display: inline;">
@@ -128,13 +129,15 @@
   				<button class="sub-button" data-filter="*">all</button> 
  				<button class="sub-button" data-filter=".identity">branding</button> 
   				<button class="sub-button" data-filter=".illustration">illustration</button> 
-  				<button class="sub-button" data-filter=".editorial">editorial</button> 
+  				<button class="sub-button" data-filter=".collage">collage</button> 
  				<button class="sub-button" data-filter=".type">typography</button> 
-  				<button class="sub-button" data-filter=".poster">posters</button> 
+  				<button class="sub-button" data-filter=".cover">covers</button> 
+                <button class="sub-button" data-filter=".poster">posters</button> 
  				<button class="sub-button" data-filter=".web">web</button> 
   				<button class="sub-button" data-filter=".print">print</button> 
- 				<button class="sub-button" data-filter=".motion">motion</button>
-                <button class="sub-button" data-filter=".patterns">patterns</button>
+                <button class="sub-button" data-filter=".editorial">editorial</button> 
+ 				<button class="sub-button" data-filter=".motion">motion</button> 
+                <button class="sub-button" data-filter=".patterns">patterns</button> 
 				<button class="sub-button" data-filter=".research">research/writing</button>
                 <button class="sub-button d-none" data-filter=".series-fic">fic</button>
  				</div>
@@ -154,11 +157,45 @@
         
       </div>
 		 
-	</div> <div id="container-list" class="container-fluid main">
+	</div> 
+    
+    <div id="container-list" class="container-fluid main">
 		
         <div class="row list-row">
 		
-            <div class="list-item col-12 col-md-6 col-lg-4 selected illustration collage">
+            <div class="list-item col-12 selected illustration collage">
+				
+				<h2 class="list-title">
+					<a href="billboard-125-years-music-business.html">Billboard Magazine 125th anniversary - How the Music Business Changed</a>
+				</h2>
+				
+				<span class="list-prj-date">
+					2019 
+				</span>
+                
+                <span class="list-prj-tags" >
+					collage, illustration
+				</span>
+				
+			</div>
+            
+            <div class="list-item col-12 selected illustration collage">
+				
+				<h2 class="list-title">
+					<a href="facebook-watch-limetown-isidor-fink.html">Facebook Watch Limetown - Isidor Fink</a>
+				</h2>
+				
+				<span class="list-prj-date">
+					2019 
+				</span>
+                
+                <span class="list-prj-tags" >
+					collage, illustration
+				</span>
+				
+			</div>
+            
+            <div class="list-item col-12 selected illustration collage">
 				
 				<h2 class="list-title">
 					<a href="nyt-sunday-review-beat-trump-cover.html">NYT Sunday Review Cover. How to Beat Trump in 2020</a>
@@ -174,7 +211,7 @@
 				
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 selected illustration collage">
+            <div class="list-item col-12 selected illustration collage">
 				
 				<h2 class="list-title">
 					<a href="nyt-sunday-review-beat-trump-impeachment.html">NYT Sunday Review. To Beat Trump, Focus On His Corruption</a>
@@ -190,10 +227,10 @@
 				
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 selected illustration collage">
+            <div class="list-item col-12 selected illustration collage">
 				
 				<h2 class="list-title">
-					<a href="nyt-sunday-review-beat-trump-center.html">NYT Sunday Review Cover. Democrats Can Still Seize the Center </a>
+					<a href="nyt-sunday-review-beat-trump-center.html">NYT Sunday Review. Democrats Can Still Seize the Center </a>
 				</h2>
 				
 				<span class="list-prj-date">
@@ -206,10 +243,10 @@
 				
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 selected illustration collage">
+            <div class="list-item col-12 selected illustration collage">
 				
 				<h2 class="list-title">
-					<a href="nyt-sunday-review-beat-trump-dem-base.html">NYT Sunday Review Cover. These 7 Million People Can Beat Trump</a>
+					<a href="nyt-sunday-review-beat-trump-dem-base.html">NYT Sunday Review. These 7 Million People Can Beat Trump</a>
 				</h2>
 				
 				<span class="list-prj-date">
@@ -222,10 +259,10 @@
 				
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 selected illustration collage">
+            <div class="list-item col-12 selected illustration collage">
 				
 				<h2 class="list-title">
-					<a href="nyt-sunday-review-beat-trump-meme-team.html">NYT Sunday Review Cover. 2020 Meme Team, Assemble</a>
+					<a href="nyt-sunday-review-beat-trump-meme-team.html">NYT Sunday Review. 2020 Meme Team, Assemble</a>
 				</h2>
 				
 				<span class="list-prj-date">
@@ -238,7 +275,7 @@
 				
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 selected poster illustration collage fic-series">
+            <div class="list-item col-12 selected poster illustration collage fic-series">
 				
 				<h2 class="list-title">
 					<a href="nyt-sunday-review-china-propaganda.html">NYT. ‘Ours Will No Longer Be a Nation Subject to Insult and Humiliation’</a>
@@ -254,7 +291,7 @@
 				
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 selected poster illustration collage fic-series">
+            <div class="list-item col-12 selected poster illustration collage fic-series">
 				
 				<h2 class="list-title">
 					<a href="nyt-sunday-review-china-patriotism.html">NYT. The Making of a Chinese Patriot</a>
@@ -270,7 +307,7 @@
 				
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 selected poster illustration collage fic-series">
+            <div class="list-item col-12 selected poster illustration collage fic-series">
 				
 				<h2 class="list-title">
 					<a href="nyt-sunday-review-china-CCP.html">NYT. The Tenacity of Chinese Communism</a>
@@ -286,7 +323,7 @@
 				
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 selected poster illustration collage fic-series">
+            <div class="list-item col-12 selected poster illustration collage fic-series">
 				
 				<h2 class="list-title">
 					<a href="shifter-sans.html">Shifter Sans</a>
@@ -302,7 +339,7 @@
 				
 			</div>
 		
-            <div class="list-item col-12 col-md-6 col-lg-4 selected poster illustration collage fic-series">
+            <div class="list-item col-12 selected poster illustration collage fic-series">
 				
 				<h2 class="list-title">
 					<a href="found-images-compositions.html">Found Images Compositions</a>
@@ -318,7 +355,7 @@
 				
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 selected illustration collage">
+            <div class="list-item col-12 selected illustration collage">
 				
 				<h2 class="list-title">
 					<a href="vs.html">vs.</a>
@@ -336,7 +373,7 @@
 				
 			</div>
             
-             <div class="list-item col-12 col-md-6 col-lg-4 illustration">
+             <div class="list-item col-12 illustration">
 				
 				<h2 class="list-title">
 					<a href="sardinha-19.html">Marketcolor - Fixed Income Liquidity</a>
@@ -354,7 +391,7 @@
 				
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 selected illustration">
+            <div class="list-item col-12 selected illustration">
 				
 				<h2 class="list-title">
 					<a href="sardinha-19.html">Sardinhas 2019</a>
@@ -372,7 +409,7 @@
 				
 			</div>
             
-             <div class="list-item col-12 col-md-6 col-lg-4 selected poster illustration collage">
+             <div class="list-item col-12 selected poster illustration collage">
 				
 				<h2 class="list-title">
 					<a href="bits-pieces-2019.html">Trinkets 2019</a>
@@ -390,7 +427,7 @@
 				
 			</div>
             
-             <div class="list-item col-12 col-md-6 col-lg-4 selected poster illustration collage">
+             <div class="list-item col-12 selected poster illustration collage">
 				
 				<h2 class="list-title">
 					<a href="posters.html">Posters</a>
@@ -406,7 +443,7 @@
 					posters, collage, illustration, typography
 				</span>
 				
-			</div><div class="list-item col-12 col-md-6 col-lg-4 selected poster illustration collage">
+			</div><div class="list-item col-12 selected poster illustration collage">
 				
 				<h2 class="list-title">
 					<a href="25-abril-19.html">25 de Abril — 45 years</a>
@@ -424,7 +461,7 @@
 				
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 selected poster illustration collage">
+            <div class="list-item col-12 selected poster illustration collage">
 				
 				<h2 class="list-title">
 					<a href="36-days-of-type-2019.html">36 Days of Type 2019</a>
@@ -442,7 +479,7 @@
 				
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 selected poster illustration">
+            <div class="list-item col-12 selected poster illustration">
 				
 				<h2 class="list-title">
 					<a href="8-march-international-womens-day-2019.html">International Women's Day</a>
@@ -460,7 +497,7 @@
 				
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 selected poster illustration">
+            <div class="list-item col-12 selected poster illustration">
 				
 				<h2 class="list-title">
 					<a href="its-alright-ma-dylan-poster.html">It's Alright, Ma (I'm Only Bleeding) Poster</a>
@@ -480,7 +517,7 @@
 				
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 selected illustration collage">
+            <div class="list-item col-12 selected illustration collage">
 				
 				<h2 class="list-title">
 					<a href="brexit-shitstorm.html">Brexit Shitstorm</a>
@@ -500,7 +537,7 @@
 				
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 selected illustration editorial print">
+            <div class="list-item col-12 selected illustration editorial print">
 				
 				<h2 class="list-title">
 					<a href="google-news-initiative-newsroom-dictionary.html">Google News Initiative — Newsroom Dictionary</a>
@@ -520,7 +557,7 @@
 				
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 selected illustration editorial print">
+            <div class="list-item col-12 selected illustration editorial print">
 				
 				<h2 class="list-title">
 					<a href="google-news-initiative-media-timeline.html">Google News Initiative — Media Timeline</a>
@@ -540,7 +577,7 @@
 				
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 selected identity web motion print">
+            <div class="list-item col-12 selected identity web motion print">
 				
 				<h2 class="list-title">
 					<a href="office-of-rs.html">Office of Ricardo Santos identity</a>
@@ -560,7 +597,7 @@
 				
 			</div>	
             
-			<div class="list-item col-12 col-md-6 col-lg-4 selected illustration">
+			<div class="list-item col-12 selected illustration">
 				
 				<h2 class="list-title">
 					<a href="me-too-illustration.html">Me Too: One Year Later</a>
@@ -580,7 +617,7 @@
 				
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 selected identity">
+            <div class="list-item col-12 selected identity">
 				
 				<h2 class="list-title">
 					<a href="logos-marks-symbols.html">Logos/Marks/Symbols</a>
@@ -600,7 +637,7 @@
 				
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration motion">
+			<div class="list-item col-12 illustration motion">
 				
 				<h2 class="list-title">
 					<a href="brazil-fascism.html">Brazilian Fascism</a>
@@ -617,7 +654,7 @@
 				</span>
 			</div>
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration collage selected">
+			<div class="list-item col-12 illustration collage selected">
 				
 				<h2 class="list-title">
 					<a href="lateral-thinking.html">A Guide to Lateral Thinking</a>
@@ -634,7 +671,7 @@
 				</span>
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration">
+			<div class="list-item col-12 illustration">
 				
 				<h2 class="list-title">
 					<a href="philosophy-kids.html">Philosophy for Kids</a>
@@ -652,7 +689,7 @@
                 
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 motion illustration type selected">
+			<div class="list-item col-12 motion illustration type selected">
 				
 				
 				<h2 class="list-title">
@@ -671,7 +708,7 @@
                 
 			</div>
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration selected collage">
+			<div class="list-item col-12 illustration selected collage">
 				
 				<h2 class="list-title">
 					<a href="podcast-roundup.html">Podcasts Roundup</a>
@@ -689,7 +726,7 @@
                 
 			</div>				
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 cover selected print collage">
+			<div class="list-item col-12 cover selected print collage">
 				
 				<h2 class="list-title">
 					<a href="havana.html">Our Man in Havana</a>
@@ -707,7 +744,7 @@
                 
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration">
+			<div class="list-item col-12 illustration">
 				
 				<h2 class="list-title">
 					<a href="trump-ecb-hawks-doves.html">Trump Is Uniting ECB Hawks and Doves</a>
@@ -725,7 +762,7 @@
                 
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 cover print">
+			<div class="list-item col-12 cover print">
 				
 				<h2 class="list-title">
 					<a href="shadows-tanizaki.html">In Praise of Shadows</a>
@@ -742,7 +779,7 @@
 				</span>
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration">
+			<div class="list-item col-12 illustration">
 				
 				<h2 class="list-title">
 					<a href="summer-reads.html">Summer Reads</a>
@@ -760,7 +797,7 @@
                 
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration selected">
+			<div class="list-item col-12 illustration selected">
 				
 				<h2 class="list-title">
 					<a href="nuclear-weapons.html">The History of Nuclear Weapons</a>
@@ -778,7 +815,7 @@
                 
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 research poster">
+			<div class="list-item col-12 research poster">
 				
 				<h2 class="list-title">
 					<a href="around-the-world-cup-posters.html">Around the World Cup</a>
@@ -796,7 +833,7 @@
                 
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration selected">
+			<div class="list-item col-12 illustration selected">
 				
 				<h2 class="list-title">
 					<a href="remote-work.html">When Work Doesn't Have a Schedule</a>
@@ -814,7 +851,7 @@
                 
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration">
+			<div class="list-item col-12 illustration">
 				
 				<h2 class="list-title">
 					<a href="survive-automation.html">How to Survive Automation</a>
@@ -832,7 +869,7 @@
                 
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration selected collage">
+			<div class="list-item col-12 illustration selected collage">
 				
 				<h2 class="list-title">
 					<a href="sexual-freedom-orwell-huxley.html">Sexual Freedom and Repression in Orwell and Huxley's Dystopias</a>
@@ -850,7 +887,7 @@
                 
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration selected">
+			<div class="list-item col-12 illustration selected">
 				
 				<h2 class="list-title">
 					<a href="trump-kim-summit.html">Trump Pulls Out of Summit Meeting with Kim</a>
@@ -868,7 +905,7 @@
                 
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration">
+			<div class="list-item col-12 illustration">
 				
 				<h2 class="list-title">
 					<a href="estrella-damm-rota-tapas-18.html">Estrella Damm Rota de Tapas '18</a>
@@ -885,7 +922,7 @@
 				</span>
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 poster type selected">
+			<div class="list-item col-12 poster type selected">
 				
 				<h2 class="list-title">
 					<a href="absurdo-posters.html">RS Absurdo Posters</a>
@@ -902,7 +939,7 @@
 				</span>
 			</div>	
             
-			<div class="list-item col-12 col-md-6 col-lg-4 type">
+			<div class="list-item col-12 type">
 				
 				<h2 class="list-title">
 					<a href="36-days-of-type-2018.html">36 Days of Type '18</a>
@@ -920,7 +957,7 @@
                 
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 cover selected">
+			<div class="list-item col-12 cover selected">
 				
 				<h2 class="list-title">
 					<a href="ditch-days-downtown.html">Ditch Days — Downtown</a>
@@ -938,7 +975,7 @@
                 
 			</div>
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 research identity selected web">
+			<div class="list-item col-12 research identity selected web">
 				
 				<h2 class="list-title">
 					<a href="rsda.html">rs design archive</a>
@@ -956,7 +993,7 @@
 				
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 identity selected">
+			<div class="list-item col-12 identity selected">
 				
 				<h2 class="list-title">
 					<a href="shipping-the-future.html">Shipping the Future</a>
@@ -974,7 +1011,7 @@
                 
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 identity packaging selected">
+			<div class="list-item col-12 identity packaging selected">
 				
 				<h2 class="list-title">
 					<a href="henrys-honey.html">Henry's Honey</a>
@@ -992,7 +1029,7 @@
 				
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 print identity illustration">
+			<div class="list-item col-12 print identity illustration">
 				
 				<h2 class="list-title">
 					<a href="new-shifter.html">New Shifter</a>
@@ -1010,7 +1047,7 @@
                 
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 poster">
+			<div class="list-item col-12 poster">
 				
 				<h2 class="list-title">
 					<a href="jazz-combo-night.html">Combo Night</a>
@@ -1027,7 +1064,7 @@
 				</span>
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration selected">
+			<div class="list-item col-12 illustration selected">
 				
 				<h2 class="list-title">
 					<a href="cryptocurrency.html">The Brave New World of Cryptocurrency</a>
@@ -1044,7 +1081,7 @@
 				</span>
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 type selected">
+			<div class="list-item col-12 type selected">
 				
 				<h2 class="list-title">
 					<a href="rs-absurdo.html">RS Absurdo</a>
@@ -1061,7 +1098,7 @@
 				</span>
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 cover selected">
+			<div class="list-item col-12 cover selected">
 				
 				<h2 class="list-title">
 					<a href="odyssey.html">Odyssey</a>
@@ -1078,7 +1115,7 @@
 				</span>
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration selected">
+			<div class="list-item col-12 illustration selected">
 				
 				<h2 class="list-title">
 					<a href="estrella-damm-rota-tapas-17.html">Estrella Damm's Rota de Tapas '17</a>
@@ -1095,7 +1132,7 @@
 				</span>
 			</div>	
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration selected">
+			<div class="list-item col-12 illustration selected">
 				
 				<h2 class="list-title">
 					<a href="back-to-work.html">Apps to get back to work</a>
@@ -1112,7 +1149,7 @@
 				</span>
 			</div>
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration selected">
+			<div class="list-item col-12 illustration selected">
 				
 				<h2 class="list-title">
 					<a href="visible-ghost.html">Visible Ghost</a>
@@ -1130,7 +1167,7 @@
 			</div>
 			
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration selected">
+			<div class="list-item col-12 illustration selected">
 				
 				<h2 class="list-title">
 					<a href="chemical-warfare.html">Chemical Warfare</a>
@@ -1147,7 +1184,7 @@
 				</span>
 			</div>
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration">
+			<div class="list-item col-12 illustration">
 				
 				<h2 class="list-title">
 					<a href="french-election.html">French Presidentials</a>
@@ -1164,7 +1201,7 @@
 				</span>
 			</div>
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 poster type">
+			<div class="list-item col-12 poster type">
 				
 				<h2 class="list-title">
 					<a href="shakespeare-quotes.html">3 Shakespeare Quotes</a>
@@ -1181,7 +1218,7 @@
 				</span>
 			</div>
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 poster">
+			<div class="list-item col-12 poster">
 				
 				<h2 class="list-title">
 					<a href="muerte.html">A La Muerte</a>
@@ -1198,7 +1235,7 @@
 				</span>
 			</div>
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 poster">
+			<div class="list-item col-12 poster">
 				
 				<h2 class="list-title">
 					<a href="quotes.html">Quotes</a>
@@ -1217,7 +1254,7 @@
 			
 			
             
-			<div class="list-item col-12 col-md-6 col-lg-4 poster illustration">
+			<div class="list-item col-12 poster illustration">
 				
 				<h2 class="list-title">
 					<a href="lisbon-housing-crisis.html">Lisbon Housing Crisis</a>
@@ -1234,7 +1271,7 @@
 				</span>
 			</div>
 			
-			<div class="list-item col-12 col-md-6 col-lg-4 poster">
+			<div class="list-item col-12 poster">
 				
 				<h2 class="list-title">
 					<a href="ciudad-ligera.html">La Ciudad Ligera</a>
@@ -1251,7 +1288,7 @@
 				</span>
 			</div>
 			
-            <div class="list-item col-12 col-md-6 col-lg-4 illustration">
+            <div class="list-item col-12 illustration">
 				
 				<h2 class="list-title">
 					<a href="gender-identity.html">The Question of Gender Identity</a>
@@ -1268,7 +1305,7 @@
 				</span>
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 editorial print selected ">
+            <div class="list-item col-12 editorial print selected ">
 				
 				<h2 class="list-title">
 					<a href="nova-em-folha.html">Nova em Folha</a>
@@ -1285,7 +1322,7 @@
 				</span>
 			</div>
             
-            <div class="list-item col-12 col-md-6 col-lg-4 editorial selected ">
+            <div class="list-item col-12 editorial selected ">
 				
 				<h2 class="list-title">
 					<a href="illustration-archive.html">Illustration Archive</a>
@@ -1303,7 +1340,7 @@
 			</div>
             
             
-			<div class="list-item col-12 col-md-6 col-lg-4 illustration">
+			<div class="list-item col-12 illustration">
 				
 				<h2 class="list-title">
 					<a href="sardinha-16.html">Sardinhas '16</a>
