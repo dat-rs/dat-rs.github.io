@@ -639,7 +639,7 @@ h3.prj-footer-sub-title {
 
 @media (min-width: 1200px) {
 
-    p.text, p.more-text, p.quoted-text {
+    p.text, p.more-text, p.serif-text {
 	    max-width: 80%;
     }
 
