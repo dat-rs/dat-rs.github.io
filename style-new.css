@@ -3,14 +3,28 @@
 
 .nh {
     font-family: 'Ultra';
-    font-size: 14px;
+    font-size: 12px;
     letter-spacing: 0.1px;
+    display: inline-block;
 }
 
-.nh-2 {
-    font-family: 'Creepster';
-    font-size: 24px;
-    letter-spacing: 0.5px;
+.bg-full {
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 0px;
+    margin-bottom: 15px;
+    color: #f2f2f2;
+}
+
+.bg-full:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX( -50%);
+    height: 100%;
+    width: 100vw;
+    background: black;
 }
 
 .slideshow-ctrl {
@@ -41,6 +55,22 @@
  
 }
 
+.grid-prj-tags {
+    font-family: 'IBM Plex Sans';
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 10px;
+    letter-spacing: 0.3px;
+    display: inline-block;
+    margin-top: 5px;
+    
+}
+
+.grid-prj-tags::before {
+    content: '→ ';
+}
+
 .grid-item:hover .grid-item-hover {
     opacity: 1;
     transition: 0.2s;
@@ -64,8 +94,9 @@
 
 
 .grid-item-hover .prj-title {
-    padding-top: 5px;
+    padding-top: 8px;
     padding-left: 10px;
+    line-height: 1.2;
     
     
 }
@@ -97,7 +128,7 @@ h1 {
 }
 
 h2 {
-	font-size: 25px;
+	font-size: 22px;
 	font-weight: 400;
 	margin-bottom: 5px;
     column-span: all;
@@ -362,8 +393,8 @@ button {
 }
 
 sup {
-	font-family: 'IBM plex sans', monospace;
 	color: darkgray;
+    font-weight: 500;
 }
 
 .prj-deets {
