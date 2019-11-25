@@ -74,7 +74,7 @@
 .grid-item:hover .grid-item-hover {
     opacity: 1;
     transition: 0.2s;
-    z-index: 1000;
+    z-index: 100;
     background-color: #F2F2F2;
     
 }
@@ -167,7 +167,7 @@ h3.serif {
 	padding-top: 10px;
 	background-color: #F2F2F2;
 	top: 0;
-	z-index: 100;
+	z-index: 1000;
     font-size: 14px;
 	line-height: 16px;
 }
