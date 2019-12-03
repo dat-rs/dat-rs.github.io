@@ -61,7 +61,7 @@
     font-weight: 400;
     text-transform: uppercase;
     padding-left: 10px;
-    letter-spacing: 0.3px;
+    letter-spacing: 1;
     display: inline-block;
     margin-top: 5px;
     
@@ -229,7 +229,7 @@ h3.serif {
     text-transform: uppercase;
 	font-size: 10px;
 	line-height: 1;
-	letter-spacing: normal;
+
     background-color: #FFB400!important;
 	animation: smile-hue 10s infinite linear;
     
@@ -268,11 +268,9 @@ h3.serif {
 a.top-link, button.sub-button {
 	color: black;
     background-color: transparent;
-    letter-spacing: 0;
 }
 
 a.top-link {
-    letter-spacing:-0.5px;
     border-bottom: none;
 }
 
@@ -291,17 +289,20 @@ a.top-link:hover, a.top-link.selected, .sub-button.selected , button.sub-button:
     
 }
 
-button.sub-button, .sub-button {
+button.sub-button, .sub-button, .sub-header-subtitle {
 	cursor:pointer;
     letter-spacing: 0.3px;
     text-transform: uppercase;
     font-size: 10px;
     border: none;
-    border-bottom: 1px solid black;
 	padding: 0;
     margin-bottom: 5px;
     line-height: 17px;
     display: inline-block;
+}
+
+button.sub-button, .sub-button {
+    border-bottom: 1px solid black;
 }
 
 .sub-button {
@@ -369,10 +370,10 @@ button {
 	line-height: 1.5;
 }
 
-.para-text, .caption, .footnotes, .footnote, .list-prj-date {
+.para-text, .caption, .footnotes, .footnote, .list-prj-date, .list-prj-tags {
 	font-family: 'IBM plex sans', monospace;
 	font-size: 12px;
-	letter-spacing: 0;
+	letter-spacing: normal;
 	line-height: 1;
 }
 
@@ -513,8 +514,12 @@ a.about-link {
     display: none;
 }
 
-.top-pdd-row {
+.top-margin-row {
     margin-top: 75px;
+}
+
+.top-pdd-row {
+    padding-top: 30px;
 }
 
 #play-p, #play-l, #play-a, #play-y {
@@ -602,9 +607,9 @@ h3.prj-footer-sub-title {
     
     .para-text, .list-prj-tags, .caption, .footnotes, .footnote, button, .list-prj-date {
 	font-family: 'IBM plex sans', monospace;
-	font-size: 13px;
-    font-weight: 400;
-	letter-spacing: 0;
+	font-size: 12px;
+    font-weight: 300;
+
 	line-height: 1.5;
 }
 	
