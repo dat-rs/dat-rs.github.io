@@ -1,11 +1,21 @@
 @charset "UTF-8";
 /* CSS Document */
 
-.nh {
-    font-family: 'Ultra';
-    font-size: 12px;
-    letter-spacing: 0.1px;
+.nh, .nh-list {
+    font-family: antique-olive, sans-serif;
+    font-weight: 700;
+    font-style: normal;
     display: inline-block;
+    letter-spacing: normal;
+    
+}
+
+.nh {
+    font-size: 75%;
+}
+
+.nh-list {
+    font-size: 96%;
 }
 
 .bg-full {
