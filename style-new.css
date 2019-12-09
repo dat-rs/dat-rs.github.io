@@ -6,16 +6,17 @@
     font-weight: 700;
     font-style: normal;
     display: inline-block;
-    letter-spacing: normal;
     
 }
 
 .nh {
     font-size: 75%;
+	letter-spacing: normal;
 }
 
 .nh-list {
     font-size: 96%;
+	letter-spacing: 0.1px;
 }
 
 .bg-full {
