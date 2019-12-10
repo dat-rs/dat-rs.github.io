@@ -360,7 +360,7 @@ button.sub-button:focus, button.sub-button:active {
 
 .main {
 	margin-top: 15px;
-    margin-bottom: 45px;
+    margin-bottom: 30px;
 	/* fucks scrolling */
 	/* overflow-x: hidden; */
     height: 100%;
@@ -549,7 +549,7 @@ a.about-link {
 .prj-footer {
     color: black;
     background-color: #dedede;
-    margin-top: 100px;
+    margin-top: 30px;
     padding-top: 15px;
     padding-bottom: 30px;
     position: relative;
