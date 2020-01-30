@@ -12,7 +12,7 @@
     # cache CSS files for 24 hours
     ExpiresByType text/css "access plus 24 hours"
 
-    AddType image/svg+xml .svg .svgz
+    addType image/svg+xml .svg .svgz
 
 <IfModule pagespeed_module>
    ModPagespeed on
