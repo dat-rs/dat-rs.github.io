@@ -65,11 +65,14 @@ button {
 
 .nh {
     font-family: maple-web, sans-serif;
-    font-weight: 600;
-    font-size: 70%;
+    font-weight: 700;
+    font-size: 40%;
+    letter-spacing: 0.2px;
+    text-transform: uppercase;
     display: block;
     padding: 0;
-    margin: 0;
+    margin-top: 3px;
+    margin-bottom: 2px;
 }
 
 .prj-footer-title {}
@@ -201,8 +204,10 @@ h1 {
 }
 
 h2 {
-    font-size: 22px;
+
+    font-size: 28px;
     font-weight: 400;
+    letter-spacing: -0.8px;
     margin-bottom: 5px;
     column-span: all;
     line-height: 1.2;
@@ -355,16 +360,39 @@ a.top-link {
     border-bottom: none;
 }
 
-button.sub-button {
+.sub-button-new, .fake-sub-button-new {
     font-family: maple-web, sans-serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    color: black;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 8px 18px 6px 18px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
 
+.sub-button-new {
+    border-radius: 16px;
+    margin-left: -2px;
+    margin-right: 6px;
+}
+
+.sub-button-new:hover, .fake-sub-button-new:hover {
+    background-color: #f2f2f2;
+} 
+
+.sub-button-new:focus, .sub-button-new.is-checked {
+    background-color: black;
+    color: #f2f2f2;
 }
 
 a.top-link:hover,
 a.top-link.selected,
 .sub-button.selected,
-button.sub-button:focus,
-button.sub-button:hover,
 .top-link.active,
 .sub-button:hover {
     font-weight: 500;
@@ -406,8 +434,8 @@ button.sub-button:hover,
     border-top: 0px solid black;
     display: block;
     width: 25%;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-bottom: 9px;
 }
 
 
@@ -452,11 +480,6 @@ button.sub-button:hover,
     font-weight: 700;
     color: #FFB400 !important;
     animation: smile-hue 3s infinite linear;
-}
-
-button.sub-button:focus,
-button.sub-button:active {
-    outline: none;
 }
 
 .main {
@@ -944,3 +967,5 @@ h3.prj-footer-sub-title {
 
 
 }
+
+
