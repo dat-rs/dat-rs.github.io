@@ -167,12 +167,36 @@
 		"oAP": "/_header.html",
 		"oF": 0
 		},
+	"/_hero.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_hero.html",
+		"oF": 0
+		},
+	"/_main.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_main.html",
+		"oF": 0
+		},
 	"/_sub-header-2.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_sub-header-2.html",
+		"oF": 0
+		},
+	"/_sub-header-new.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/_sub-header-new.html",
 		"oF": 0
 		},
 	"/_sub-header.html": {
@@ -247,6 +271,22 @@
 		"oAP": "/atlantic-uk-russia-secret-war.html",
 		"oF": 0
 		},
+	"/avenue-fertility.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/avenue-fertility.html",
+		"oF": 0
+		},
+	"/avenue-fertility.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/avenue-fertility.html",
+		"oF": 0
+		},
 	"/back-to-work.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -311,6 +351,16 @@
 		"oAP": "/block-crypto.html",
 		"oF": 0
 		},
+	"/bootstrap-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/bootstrap-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/bootstrap.css": {
 		"aP": 1,
 		"bl": 0,
@@ -337,12 +387,28 @@
 		"oAP": "/branding-logos-marks-symbols.html",
 		"oF": 0
 		},
+	"/brazil-fascism.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brazil-fascism.html",
+		"oF": 0
+		},
 	"/brazil-fascism.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/brazil-fascism.html",
+		"oF": 0
+		},
+	"/brexit-shitstorm.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/brexit-shitstorm.html",
 		"oF": 0
 		},
 	"/brexit-shitstorm.kit": {
@@ -361,12 +427,28 @@
 		"oAP": "/browserconfig.xml",
 		"oF": 0
 		},
+	"/chemical-warfare.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/chemical-warfare.html",
+		"oF": 0
+		},
 	"/chemical-warfare.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/chemical-warfare.html",
+		"oF": 0
+		},
+	"/ciudad-ligera.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/ciudad-ligera.html",
 		"oF": 0
 		},
 	"/ciudad-ligera.kit": {
@@ -383,6 +465,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/CNAME",
+		"oF": 0
+		},
+	"/contact.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/contact.html",
 		"oF": 0
 		},
 	"/contact.kit": {
@@ -417,12 +507,28 @@
 		"oAP": "/DEPRECATED_index-list.html",
 		"oF": 0
 		},
+	"/designer-fund-guide.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/designer-fund-guide.html",
+		"oF": 0
+		},
 	"/designer-fund-guide.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/designer-fund-guide.html",
+		"oF": 0
+		},
+	"/ditch-days-downtown.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/ditch-days-downtown.html",
 		"oF": 0
 		},
 	"/ditch-days-downtown.kit": {
@@ -561,6 +667,14 @@
 		"oAP": "/fonts/MoriGothic-SemiBold.woff2",
 		"oF": 0
 		},
+	"/found-images-compositions.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/found-images-compositions.html",
+		"oF": 0
+		},
 	"/found-images-compositions.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -585,6 +699,16 @@
 		"oAP": "/gender-identity.html",
 		"oF": 0
 		},
+	"/gifplayer-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/gifplayer-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
 	"/gifplayer.css": {
 		"aP": 1,
 		"bl": 0,
@@ -594,6 +718,14 @@
 		"oAP": "/gifplayer-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/google-news-initiative-media-timeline.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/google-news-initiative-media-timeline.html",
+		"oF": 0
 		},
 	"/google-news-initiative-media-timeline.kit": {
 		"cB": 0,
@@ -619,12 +751,28 @@
 		"oAP": "/google-news-initiative-newsroom-dictionary.html",
 		"oF": 0
 		},
+	"/guardian-fight-to-vote.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/guardian-fight-to-vote.html",
+		"oF": 0
+		},
 	"/guardian-fight-to-vote.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/guardian-fight-to-vote.html",
+		"oF": 0
+		},
+	"/guardian-trump-judges-circuits.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/guardian-trump-judges-circuits.html",
 		"oF": 0
 		},
 	"/guardian-trump-judges-circuits.kit": {
@@ -651,12 +799,28 @@
 		"oAP": "/guardian-trump-judges-rulings.html",
 		"oF": 0
 		},
+	"/havana.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/havana.html",
+		"oF": 0
+		},
 	"/havana.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/havana.html",
+		"oF": 0
+		},
+	"/henrys-honey.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/henrys-honey.html",
 		"oF": 0
 		},
 	"/henrys-honey.kit": {
@@ -4452,6 +4616,50 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/fertility-lead.jpg": {
+		"ft": 16384,
+		"iS": 2174229,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/fertility-lead.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/fertility-prj-1.jpg": {
+		"ft": 16384,
+		"iS": 296035,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/fertility-prj-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/fertility-prj-2.jpg": {
+		"ft": 16384,
+		"iS": 251047,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/fertility-prj-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/fertility-spot.jpg": {
+		"ft": 16384,
+		"iS": 1947867,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/fertility-spot.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/fic-1-prj.jpg": {
 		"ft": 16384,
 		"iS": 790666,
@@ -6637,6 +6845,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/marketcolor-yields.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/marquee-1.jpg": {
+		"ft": 16384,
+		"iS": 260429,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/marquee-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/marquee-2.jpg": {
+		"ft": 16384,
+		"iS": 158989,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/marquee-2.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -11517,6 +11747,14 @@
 		"sC": 3,
 		"tS": 0
 		},
+	"/lateral-thinking.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lateral-thinking.html",
+		"oF": 0
+		},
 	"/lateral-thinking.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -11525,12 +11763,28 @@
 		"oAP": "/lateral-thinking.html",
 		"oF": 0
 		},
+	"/lisbon-housing-crisis.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/lisbon-housing-crisis.html",
+		"oF": 0
+		},
 	"/lisbon-housing-crisis.kit": {
 		"cB": 0,
 		"ft": 2048,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/lisbon-housing-crisis.html",
+		"oF": 0
+		},
+	"/marketcolor-environmental-social-governance.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/marketcolor-environmental-social-governance.html",
 		"oF": 0
 		},
 	"/marketcolor-environmental-social-governance.kit": {
@@ -11635,6 +11889,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/medium-onezero-smart-city.html",
+		"oF": 0
+		},
+	"/muerte.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/muerte.html",
 		"oF": 0
 		},
 	"/muerte.kit": {
@@ -11997,6 +12259,25 @@
 		"oAP": "/quotes.html",
 		"oF": 0
 		},
+	"/readme.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/readme.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
 	"/remote-work.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -12013,6 +12294,14 @@
 		"oAP": "/remote-work.html",
 		"oF": 0
 		},
+	"/rs-absurdo.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/rs-absurdo.html",
+		"oF": 0
+		},
 	"/rs-absurdo.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -12027,6 +12316,14 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/rsda-home-screen.mp4",
+		"oF": 0
+		},
+	"/rsda.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/rsda.html",
 		"oF": 0
 		},
 	"/rsda.kit": {
@@ -12085,6 +12382,14 @@
 		"oAP": "/sexual-freedom-orwell-huxley.html",
 		"oF": 0
 		},
+	"/shadows-tanizaki.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/shadows-tanizaki.html",
+		"oF": 0
+		},
 	"/shadows-tanizaki.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -12123,6 +12428,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/shifter-isolamento.html",
+		"oF": 0
+		},
+	"/shifter-magazine-virus-system.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/shifter-magazine-virus-system.html",
+		"oF": 0
+		},
+	"/shifter-magazine-virus-system.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/shifter-magazine-virus-system.html",
 		"oF": 0
 		},
 	"/shifter-sans.html": {
@@ -12200,6 +12521,14 @@
 		"oAP": "/style-new-min.css",
 		"oF": 0,
 		"oS": 3
+		},
+	"/summer-reads.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/summer-reads.html",
+		"oF": 0
 		},
 	"/summer-reads.kit": {
 		"cB": 0,

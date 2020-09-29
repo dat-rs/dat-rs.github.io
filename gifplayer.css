@@ -1,15 +1,6 @@
 
 ins.play-gif{
-	font-family: 'IBM Plex Mono', monospace;
-	letter-spacing: normal;
 	position: absolute;
-	width: 50px;
-	height: 50px;
-	line-height: 52px;
-	text-align: center;
-	font-size: 14px;
-	color: #000;
-	cursor:pointer;
 	text-decoration: none;
 }
 
@@ -18,8 +9,7 @@ ins.play-gif:hover{
 }
 
 .gifplayer-wrapper{
-	position:relative;
-	display: inline-block;
+
 }
 
 .spinner {
