@@ -11712,6 +11712,22 @@
 		"oAP": "/index-list.html",
 		"oF": 0
 		},
+	"/index-test.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/index-test.html",
+		"oF": 0
+		},
+	"/index-test.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/index-test.html",
+		"oF": 0
+		},
 	"/index.html": {
 		"cB": 0,
 		"ft": 8192,
