@@ -199,6 +199,14 @@
 		"oAP": "/_sub-header-2.html",
 		"oF": 0
 		},
+	"/_sub-header-2.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_sub-header-2.html",
+		"oF": 0
+		},
 	"/_sub-header-new.kit": {
 		"cB": 0,
 		"ft": 2048,
@@ -210,6 +218,14 @@
 	"/_sub-header.html": {
 		"cB": 0,
 		"ft": 8192,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_sub-header.html",
+		"oF": 0
+		},
+	"/_sub-header.kit": {
+		"cB": 0,
+		"ft": 2048,
 		"hM": 0,
 		"oA": 1,
 		"oAP": "/_sub-header.html",
@@ -7819,6 +7835,50 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/nyt-supreme-court-senate-democrats.jpg": {
+		"ft": 16384,
+		"iS": 1514557,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/nyt-supreme-court-senate-democrats.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/nyt-supreme-court-senate-prj-2.jpg": {
+		"ft": 16384,
+		"iS": 391898,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/nyt-supreme-court-senate-prj-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/nyt-supreme-court-senate-prj.jpg": {
+		"ft": 16384,
+		"iS": 380337,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/nyt-supreme-court-senate-prj.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/nyt-supreme-court-senate-republican.jpg": {
+		"ft": 16384,
+		"iS": 1462447,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/nyt-supreme-court-senate-republican.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/o-18.jpg": {
 		"ft": 16384,
 		"iS": 502646,
@@ -12053,6 +12113,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/nyt-mazzucato.html",
+		"oF": 0
+		},
+	"/nyt-senate-supreme-court.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/nyt-senate-supreme-court.html",
+		"oF": 0
+		},
+	"/nyt-senate-supreme-court.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/nyt-senate-supreme-court.html",
 		"oF": 0
 		},
 	"/nyt-sunday-review-beat-trump-center.html": {
