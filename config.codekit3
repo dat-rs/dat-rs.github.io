@@ -7739,6 +7739,50 @@
 		"opt": 0,
 		"q": 100
 		},
+	"/images/nyt-latino-films-cover-print.jpg": {
+		"ft": 16384,
+		"iS": 889887,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/nyt-latino-films-cover-print.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/nyt-latino-films-cover.jpg": {
+		"ft": 16384,
+		"iS": 1674143,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/nyt-latino-films-cover.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/nyt-latino-films-inside.jpg": {
+		"ft": 16384,
+		"iS": 2050102,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/nyt-latino-films-inside.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/nyt-latino-films-prj.jpg": {
+		"ft": 16384,
+		"iS": 642596,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/nyt-latino-films-prj.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
 	"/images/nyt-mazzucato-burglar-1.jpg": {
 		"ft": 16384,
 		"iS": 1246424,
@@ -12081,6 +12125,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/nuclear-weapons.html",
+		"oF": 0
+		},
+	"/nyt-latino-films.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/nyt-latino-films.html",
+		"oF": 0
+		},
+	"/nyt-latino-films.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/nyt-latino-films.html",
 		"oF": 0
 		},
 	"/nyt-magazine-screenland-health-care-ad.html": {
