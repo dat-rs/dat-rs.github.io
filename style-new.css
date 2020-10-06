@@ -319,6 +319,7 @@ h3.serif {
 
 #sub-header-collapse-col {
     padding-bottom: 15px;
+    display: inline;
 }
 
 .prjs-menu-grid-item {
