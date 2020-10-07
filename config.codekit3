@@ -191,6 +191,14 @@
 		"oAP": "/_main.html",
 		"oF": 0
 		},
+	"/_newsletter-promo.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 1,
+		"oAP": "/_newsletter-promo.html",
+		"oF": 0
+		},
 	"/_sub-header-2.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -7236,6 +7244,17 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/newsletter-prj.jpg": {
+		"ft": 16384,
+		"iS": 290706,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/newsletter-prj.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"/images/nova-em-folha-prj.gif": {
