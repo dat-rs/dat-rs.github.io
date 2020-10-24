@@ -359,6 +359,22 @@
 		"oAP": "/billboard-125-years-music-business.html",
 		"oF": 0
 		},
+	"/billboard-tiktok-india.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/billboard-tiktok-india.html",
+		"oF": 0
+		},
+	"/billboard-tiktok-india.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/billboard-tiktok-india.html",
+		"oF": 0
+		},
 	"/bits-pieces.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2906,6 +2922,25 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
+		"q": 100
+		},
+	"/images/billboard-india-prj.gif": {
+		"ft": 4194304,
+		"iS": 496162,
+		"oA": 0,
+		"oAP": "/images/billboard-india-prj.gif",
+		"oF": 0,
+		"opt": 1
+		},
+	"/images/billboard-india.jpg": {
+		"ft": 16384,
+		"iS": 1140341,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/billboard-india.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/biz-cards.jpg": {
