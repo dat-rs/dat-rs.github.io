@@ -279,6 +279,22 @@
 		"oAP": "/absurdo-posters.html",
 		"oF": 0
 		},
+	"/adobe-spark.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/adobe-spark.html",
+		"oF": 0
+		},
+	"/adobe-spark.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/adobe-spark.html",
+		"oF": 0
+		},
 	"/around-the-world-cup-posters.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -2043,6 +2059,36 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"q": 100
+		},
+	"/images/adobe-spark-prj.gif": {
+		"ft": 4194304,
+		"iS": 468916,
+		"oA": 0,
+		"oAP": "/images/adobe-spark-prj.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/images/adobe-spark-square.jpg": {
+		"ft": 16384,
+		"iS": 1209654,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/adobe-spark-square.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/adobe-spark.jpg": {
+		"ft": 16384,
+		"iS": 1569507,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/adobe-spark.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"/images/agostinho-2x.jpg": {
@@ -6117,6 +6163,39 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/jacobin-war-lead.jpg": {
+		"ft": 16384,
+		"iS": 1991419,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/jacobin-war-lead.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/jacobin-war-spot-1.jpg": {
+		"ft": 16384,
+		"iS": 1982990,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/jacobin-war-spot-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/jacobin-war-spot-2.jpg": {
+		"ft": 16384,
+		"iS": 1397785,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/jacobin-war-spot-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/jornalismo-2x.png": {
 		"ft": 32768,
 		"iS": 25718,
@@ -6574,6 +6653,28 @@
 		"jF": 0,
 		"oA": 0,
 		"oAP": "/images/lateral.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/images/le-monde-museums-half.jpg": {
+		"ft": 16384,
+		"iS": 1745331,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/le-monde-museums-half.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/images/le-monde-museums-lead.jpg": {
+		"ft": 16384,
+		"iS": 2061712,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/le-monde-museums-lead.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -11096,6 +11197,25 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/images/TED-crisis-prj.gif": {
+		"ft": 4194304,
+		"iS": 374627,
+		"oA": 0,
+		"oAP": "/images/TED-crisis-prj.gif",
+		"oF": 0,
+		"opt": 0
+		},
+	"/images/TED-crisis.jpg": {
+		"ft": 16384,
+		"iS": 1089530,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/TED-crisis.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"/images/tiger-logo-1.jpg": {
 		"ft": 16384,
 		"iS": 350449,
@@ -12914,6 +13034,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/survive-automation.html",
+		"oF": 0
+		},
+	"/TED-companies-crisis.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/TED-companies-crisis.html",
+		"oF": 0
+		},
+	"/TED-companies-crisis.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/TED-companies-crisis.html",
 		"oF": 0
 		},
 	"/trump-ecb-hawks-doves.html": {
