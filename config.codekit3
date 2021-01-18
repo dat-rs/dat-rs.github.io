@@ -8594,6 +8594,42 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/mother-jones-baseball-horizontal.jpg": {
+		"ft": 16384,
+		"iS": 739195,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/mother-jones-baseball-horizontal.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/mother-jones-baseball-prj.gif": {
+		"ft": 4194304,
+		"iS": 285529,
+		"oA": 0,
+		"oAP": "/images/mother-jones-baseball-prj.gif",
+		"oF": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/images/mother-jones-baseball-vertical.jpg": {
+		"ft": 16384,
+		"iS": 1667183,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/mother-jones-baseball-vertical.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/mstile-144x144.png": {
 		"ft": 32768,
 		"iS": 6656,
@@ -14537,6 +14573,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/medium-onezero-smart-city.html",
+		"oF": 0
+		},
+	"/mother-jones-baseball.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/mother-jones-baseball.html",
+		"oF": 0
+		},
+	"/mother-jones-baseball.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/mother-jones-baseball.html",
 		"oF": 0
 		},
 	"/muerte.html": {
