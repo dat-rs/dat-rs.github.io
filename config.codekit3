@@ -13738,6 +13738,42 @@
 		"ou": "lpckwebp-none",
 		"rq": 75
 		},
+	"/images/vital-alchohol-prj.gif": {
+		"ft": 4194304,
+		"iS": 263427,
+		"oA": 0,
+		"oAP": "/images/vital-alchohol-prj.gif",
+		"oF": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/images/vital-alchohol.jpg": {
+		"ft": 16384,
+		"iS": 9145321,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/vital-alchohol.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/vital-alcohol-mockup.jpg": {
+		"ft": 16384,
+		"iS": 552582,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/vital-alcohol-mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/vote-cpt.gif": {
 		"ft": 4194304,
 		"iS": 3092,
@@ -16027,6 +16063,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/visible-ghost.html",
+		"oF": 0
+		},
+	"/vital-strategies-alcohol-report.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/vital-strategies-alcohol-report.html",
+		"oF": 0
+		},
+	"/vital-strategies-alcohol-report.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/vital-strategies-alcohol-report.html",
 		"oF": 0
 		},
 	"/vs.html": {
