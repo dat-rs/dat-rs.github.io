@@ -9640,6 +9640,29 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/nyt-terrible-ny-prj.gif": {
+		"ft": 4194304,
+		"iS": 656796,
+		"oA": 0,
+		"oAP": "/images/nyt-terrible-ny-prj.gif",
+		"oF": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/images/nyt-terrible-ny.jpg": {
+		"ft": 16384,
+		"iS": 1889853,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/nyt-terrible-ny.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/o-18.jpg": {
 		"ft": 16384,
 		"iS": 502646,
@@ -15628,6 +15651,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/nyt-sunday-review-propublica-military-readiness.html",
+		"oF": 0
+		},
+	"/nyt-sunday-review-terrible-ny.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/nyt-sunday-review-terrible-ny.html",
+		"oF": 0
+		},
+	"/nyt-sunday-review-terrible-ny.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/nyt-sunday-review-terrible-ny.html",
 		"oF": 0
 		},
 	"/odyssey.html": {
