@@ -895,6 +895,22 @@
 		"oAP": "/guardian-trump-judges-rulings.html",
 		"oF": 0
 		},
+	"/guardian-water-latinos.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/guardian-water-latinos.html",
+		"oF": 0
+		},
+	"/guardian-water-latinos.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/guardian-water-latinos.html",
+		"oF": 0
+		},
 	"/havana.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -6723,6 +6739,29 @@
 		"q": 100,
 		"rq": 75
 		},
+	"/images/guardian-water-latinos-prj.gif": {
+		"ft": 4194304,
+		"iS": 446712,
+		"oA": 0,
+		"oAP": "/images/.guardian-water-latinos-prj~imageoptim.gif",
+		"oF": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/images/guardian-water-latinos.jpg": {
+		"ft": 16384,
+		"iS": 1601919,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/guardian-water-latinos.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/images/guilty-2x.png": {
 		"ft": 32768,
 		"iS": 263795,
@@ -8590,6 +8629,42 @@
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/mother-jones-14th-horizontal.jpg": {
+		"ft": 16384,
+		"iS": 2025915,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/mother-jones-14th-horizontal.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/mother-jones-14th-prj.gif": {
+		"ft": 4194304,
+		"iS": 431554,
+		"oA": 0,
+		"oAP": "/images/mother-jones-14th-prj.gif",
+		"oF": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/images/mother-jones-14th-vertical.jpg": {
+		"ft": 16384,
+		"iS": 2639503,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/mother-jones-14th-vertical.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"ou": "lpckwebp-none",
 		"q": 100,
 		"rq": 75
@@ -10551,6 +10626,84 @@
 		"oF": 0,
 		"opt": 0,
 		"ou": "lpckwebp-none",
+		"rq": 75
+		},
+	"/images/office-santos-bolicha-mark-1.jpg": {
+		"ft": 16384,
+		"iS": 105066,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/office-santos-bolicha-mark-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/office-santos-bolicha-mark-2.jpg": {
+		"ft": 16384,
+		"iS": 165665,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/office-santos-bolicha-mark-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/office-santos-bolicha-mark-3.jpg": {
+		"ft": 16384,
+		"iS": 162053,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/office-santos-bolicha-mark-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/office-santos-bolicha-mark-4-animated-color-2.jpg": {
+		"ft": 16384,
+		"iS": 138136,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/office-santos-bolicha-mark-4-animated-color-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/office-santos-bolicha-mark-4-animated-color.jpg": {
+		"ft": 16384,
+		"iS": 192667,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/office-santos-bolicha-mark-4-animated-color.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
+	"/images/office-santos-bolicha-mark-4.jpg": {
+		"ft": 16384,
+		"iS": 165064,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/images/office-santos-bolicha-mark-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"ou": "lpckwebp-none",
+		"q": 100,
 		"rq": 75
 		},
 	"/images/old-monogram.png": {
@@ -14596,6 +14749,22 @@
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/medium-onezero-smart-city.html",
+		"oF": 0
+		},
+	"/mother-jones-14th-amendment.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/mother-jones-14th-amendment.html",
+		"oF": 0
+		},
+	"/mother-jones-14th-amendment.kit": {
+		"cB": 0,
+		"ft": 2048,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/mother-jones-14th-amendment.html",
 		"oF": 0
 		},
 	"/mother-jones-baseball.html": {
