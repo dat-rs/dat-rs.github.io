@@ -1,0 +1,34 @@
+---
+layout: notprj-2
+---
+
+<div class="container-fluid main">
+
+      <div class="grid-row row">
+
+            {% for project in site.projects reversed %}
+
+            <div class="grid-item col-12 col-md-6 col-lg-4 {{ project.tags | join: " " }} {{ project.year }} {% if project.selected == true %}
+               selected {% endif %}">
+
+                  <a href="{{ project.url }}">
+                        <img class="grid-img" src="/images/{{ project.prj_img }}" alt="{{ project.title }}">
+                        <div class="grid-item-hover">
+                              <h2 class="prj-title">
+
+                                    {% if project.pub %}
+                                    <span class="nh">{{ project.pub }}</span>
+                                    {% endif %}
+                                    {{ project.title }}
+
+                              </h2>
+
+                        </div>
+                  </a>
+            </div>
+
+            {% endfor %}
+
+      </div>
+
+</div>

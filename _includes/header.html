@@ -1,4 +1,3 @@
-
 <!-- Twitter Card data -->
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@dat_rs2">
@@ -29,5 +28,5 @@
 
 
 
-<title>{{ page.title }} - {{ page.client }}</title>
+<title>{{ page.title }}{% if page.client %} - {{ page.client }}{% endif %}</title>
 <meta name="Description" content="{{ page.description }}">

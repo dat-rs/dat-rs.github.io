@@ -52,6 +52,59 @@
         url('/fonts/MoriGothic-Bold.woff2') format('woff2');
 }
 
+.bolicha-header {
+  max-width: 100%;
+  max-height: 80px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.header-other {
+  padding-top: 8px;
+  display: block;
+}
+
+/* Spacers */
+
+.spacer-above, .spacer-below, .spacer-end, .spacer-between {
+  display: flex;
+  justify-content: center;
+
+}
+
+.spacer-above {
+  padding-top: 50px;
+
+}
+
+.spacer-below {
+  padding-bottom: 50px;
+
+}
+
+.spacer-between {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.spacer-end {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.spacer-img-l {
+  max-width: 100%;
+  max-height: 70px;
+
+}
+
+.spacer-img-s {
+  max-width: 100%;
+  max-height: 50px;
+
+}
+
+
 a,
 button {
     line-height: normal;
@@ -83,8 +136,8 @@ button {
 
 .bg-full {
     position: relative;
-    padding-top: 15px;
-    padding-bottom: 0px;
+    padding-top: 60px;
+    padding-bottom: 60px;
     margin-bottom: 15px;
     color: #f2f2f2;
 }
@@ -97,7 +150,15 @@ button {
     transform: translateX(-50%);
     height: 100%;
     width: 100vw;
-    background: black;
+    background-color: black;
+}
+
+.bg-full.ochre:before {
+  background-color: #DB7C26;
+}
+
+.bg-full.flame:before {
+  background-color: #D8572A;
 }
 
 .slideshow-ctrl {
@@ -206,14 +267,46 @@ h1 {
 
 h2 {
 
-    font-size: 28px;
-    font-weight: 400;
+    font-size: 26px;
+    font-family: maple-web, sans-serif;
+    font-weight: 200;
     letter-spacing: -0.8px;
     margin-bottom: 5px;
     column-span: all;
     line-height: 1.2;
     max-width: 90%;
     display: block;
+}
+
+h3.sub-title {
+  font-size: 22px;
+  font-family: maple-web, sans-serif;
+  font-weight: 600;
+  letter-spacing: -0.2px;
+  margin-bottom: 5px;
+  line-height: 1.2;
+  max-width: 90%;
+  display: block;
+}
+
+.yellow {
+  color: #FFA62B;
+}
+
+.red {
+  color: #F05F2C;
+}
+
+.pink {
+  color: #FF94C9;
+}
+
+.teal {
+  color: #5CB9CC;
+}
+
+.green {
+  color: #7A8A3D;
 }
 
 h3.sub-sub {
@@ -252,6 +345,10 @@ h3.serif {
     line-height: 16px;
 }
 
+.container-fluid.footer {
+  background-color: #FF94C9;
+}
+
 .footer,
 .border-footer {
     padding-top: 10px;
@@ -271,7 +368,7 @@ h3.serif {
 }
 
 .header-col {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 .header::after,
@@ -308,8 +405,8 @@ h3.serif {
     letter-spacing: normal;
     font-size: 13px;
     line-height: 1;
-    background-color: #FFB400;
-    animation: smile-hue 10s infinite linear;
+    background-color: #FFA62B;
+
 
 
 }
@@ -332,7 +429,7 @@ h3.serif {
 }
 
 .header-row {
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 
 .sub-header-row {
@@ -396,7 +493,7 @@ a.top-link {
     vertical-align: middle;
     margin: 0px 5px 14px 1px;
     border-radius: 16px;
-    
+
 }
 
 .sub-button-new, .play-gif {
@@ -409,7 +506,7 @@ a.top-link {
 
 .sub-button-new:hover, .fake-sub-button-new:hover, ins.play-gif:hover {
     background-color: #f2f2f2;
-} 
+}
 
 .sub-button-new:focus, .sub-button-new.is-checked {
     background-color: black;
@@ -514,6 +611,10 @@ a.top-link.selected,
     /* fucks scrolling */
     /* overflow-x: hidden; */
     height: 100%;
+}
+
+.main.prj {
+
 }
 
 .blog {
@@ -652,11 +753,6 @@ h2.blog-title {}
     line-height: 1.5;
 }
 
-
-.sub-title {
-    padding-top: 100px;
-}
-
 .list-row {
     padding-bottom: 0px;
     overflow: hidden;
@@ -783,7 +879,7 @@ h3.prj-footer-sub-title {
     font-size: 10px;
     border: none;
     margin-top: 10px;
-    margin-bottom: -10px;
+    margin-bottom: 10px;
 }
 
 .wrapper {
@@ -798,215 +894,6 @@ h3.prj-footer-sub-title {
   animation: slide 60s linear infinite;
 }
 
-@keyframes slide{
-  0%{
-    transform: translate3d(0, 0, 0);
-  }
-  100%{
-    transform: translate3d(-3000px, 0, 0);
-  }
-}
-
-@keyframes smile-hue {
-
-    0% {
-        filter: hue-rotate(0deg);
-    }
-
-    10% {
-        filter: hue-rotate(36deg);
-    }
-
-    20% {
-        filter: hue-rotate(72deg);
-    }
-
-    30% {
-        filter: hue-rotate(108deg);
-    }
-
-    40% {
-        filter: hue-rotate(144deg);
-    }
-
-    50% {
-        filter: hue-rotate(180deg);
-    }
-
-    60% {
-        filter: hue-rotate(216deg);
-    }
-
-    70% {
-        filter: hue-rotate(252deg);
-    }
-
-    80% {
-        filter: hue-rotate(288deg);
-    }
-
-    90% {
-        filter: hue-rotate(324deg);
-    }
-
-    100% {
-        filter: hue-rotate(360deg);
-    }
-
-}
-
-@keyframes smile-rotation {
-
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(359deg);
-    }
-
-}
-
-
-@media (min-width: 481px) {
-    
-    .sub-header {
-        padding-top: 95px;
-    }
-
-    
-    .hero, .pre-hero {
-        padding-top: 95px;
-    }
-    
-    .pre-hero {
-        padding-left: 0px;
-        padding-right: 0px;
-    }
-
-    .header {
-        position: fixed;
-    }
-    
-}
-
-@media (min-width: 768px) {
-
-    p.text,
-    p.more-text,
-    p.quoted-text,
-    p.para-text {
-        line-height: 1.5;
-    }
-
-    .list-prj-tags {
-        padding: 0 0 0 0;
-        margin: 0;
-    }
-
-    .split-2-md {
-
-        column-count: 2;
-        column-gap: 16px;
-    }
-
-    .b-img {
-        max-width: 80%;
-    }
-
-    .c-img {
-        max-width: 60%;
-    }
-    
-}
-
-@media (min-width: 992px) {
-
-    .sub-header {
-        padding-top: 60px;
-    }
-
-    
-    .hero, .pre-hero {
-        padding-top: 60px;
-    }
-
-    p.text,
-    p.more-text,
-    p.serif-text {
-        max-width: 90%;
-    }
-
-    .split-2-md {
-
-        column-count: initial;
-    }
-
-    .constrained-img {
-        max-height: 83vh;
-
-    }
-
-    .constrain-btn {
-        display: block;
-        position: absolute;
-        top: 5px;
-        left: 15px;
-        background-color: inherit;
-    }
-    
-    .nl-wrapper {
-        
-    }
-}
-
-@media (min-width: 1200px) {
-
-    p.text,
-    p.more-text,
-    p.serif-text {
-        max-width: 80%;
-    }
-}
-
-@media (pointer: fine) {
-
-    .list-item-smile,
-    .grid-item-smile {
-        background-image: url(images/smile.png);
-        background-repeat: no-repeat;
-        background-size: 20px;
-        display: none;
-        width: 20px;
-        height: 20px;
-        animation: smile-hue 3s infinite linear, smile-rotation 1.5s infinite linear;
-
-    }
-
-    .list-item-smile {
-        margin-left: 8px;
-        position: absolute;
-        bottom: 45px;
-        background-origin: padding-box;
-
-    }
-
-    .grid-item-smile {
-        position: relative;
-        top: 0px;
-        right: 5px;
-        background-origin: content-box;
-    }
-
-    .grid-item:hover .grid-item-smile {
-        display: inline;
-
-    }
-
-
-}
-
-
 
 .hero-headline {
     font-family: gopher, sans-serif;
@@ -1016,7 +903,7 @@ h3.prj-footer-sub-title {
     line-height: 1.2;
     margin-top: 90px;
     margin-bottom: 0;
-    
+
 }
 
 .hero {
@@ -1118,4 +1005,230 @@ input.button:hover {
 
 .fake-sub-button-new.newsletter {
     font-weight: 900;
+}
+
+
+@keyframes slide{
+  0%{
+    transform: translate3d(0, 0, 0);
+  }
+  100%{
+    transform: translate3d(-3000px, 0, 0);
+  }
+}
+
+@keyframes smile-hue {
+
+    0% {
+        filter: hue-rotate(0deg);
+    }
+
+    10% {
+        filter: hue-rotate(36deg);
+    }
+
+    20% {
+        filter: hue-rotate(72deg);
+    }
+
+    30% {
+        filter: hue-rotate(108deg);
+    }
+
+    40% {
+        filter: hue-rotate(144deg);
+    }
+
+    50% {
+        filter: hue-rotate(180deg);
+    }
+
+    60% {
+        filter: hue-rotate(216deg);
+    }
+
+    70% {
+        filter: hue-rotate(252deg);
+    }
+
+    80% {
+        filter: hue-rotate(288deg);
+    }
+
+    90% {
+        filter: hue-rotate(324deg);
+    }
+
+    100% {
+        filter: hue-rotate(360deg);
+    }
+
+}
+
+@keyframes smile-rotation {
+
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+
+}
+
+
+@media (min-width: 481px) {
+
+    .main.prj {
+        margin-top: 170px;
+    }
+
+    .sub-header {
+        padding-top: 158px;
+    }
+
+
+    .hero, .pre-hero {
+        padding-top: 95px;
+    }
+
+    .pre-hero {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .header {
+        position: fixed;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+    .main.prj {
+        margin-top: 100px;
+    }
+
+    p.text,
+    p.more-text,
+    p.quoted-text,
+    p.para-text {
+        line-height: 1.5;
+    }
+
+    .list-prj-tags {
+        padding: 0 0 0 0;
+        margin: 0;
+    }
+
+    .split-2-md {
+
+        column-count: 2;
+        column-gap: 16px;
+    }
+
+    .b-img {
+        max-width: 80%;
+    }
+
+    .c-img {
+        max-width: 60%;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    .main.prj {
+        margin-top: 100px;
+    }
+
+    .sub-header {
+        padding-top: 104px;
+    }
+
+    .pre-sub-spacer {
+      height: 22px;
+    }
+
+    .hero, .pre-hero {
+        padding-top: 60px;
+    }
+
+    p.text,
+    p.more-text,
+    p.serif-text {
+        max-width: 90%;
+    }
+
+    .split-2-md {
+
+        column-count: initial;
+    }
+
+    .constrained-img {
+        max-height: 83vh;
+
+    }
+
+    .constrain-btn {
+        display: block;
+        position: absolute;
+        top: 5px;
+        left: 15px;
+        background-color: inherit;
+    }
+
+    .container-fluid.footer {
+      position: sticky;
+      bottom: 0;
+    }
+
+}
+
+@media (min-width: 1200px) {
+
+    p.text,
+    p.more-text,
+    p.serif-text {
+        max-width: 80%;
+    }
+}
+
+@media (pointer: fine) {
+
+    .list-item-smile,
+    .grid-item-smile {
+        background-image: url(images/smile.png);
+        background-repeat: no-repeat;
+        background-size: 20px;
+        display: none;
+        width: 20px;
+        height: 20px;
+        animation: smile-hue 3s infinite linear, smile-rotation 1.5s infinite linear;
+
+    }
+
+    .list-item-smile {
+        margin-left: 8px;
+        position: absolute;
+        bottom: 45px;
+        background-origin: padding-box;
+
+    }
+
+    .grid-item-smile {
+        position: relative;
+        top: 0px;
+        right: 5px;
+        background-origin: content-box;
+    }
+
+    .grid-item:hover .grid-item-smile {
+        display: inline;
+
+    }
+
+
 }

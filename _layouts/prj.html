@@ -3,67 +3,78 @@
 
 <head>
 
-  <!-- Global site tag (gtag.js) - Google Analytics -->
+      <!-- Global site tag (gtag.js) - Google Analytics -->
 
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111744030-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111744030-1"></script>
+      <script>
+            window.dataLayer = window.dataLayer || [];
 
-    function gtag() {
-      dataLayer.push(arguments);
-    }
-    gtag('js', new Date());
+            function gtag() {
+                  dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
 
-    gtag('config', 'UA-111744030-1');
-  </script>
+            gtag('config', 'UA-111744030-1');
+      </script>
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=kP372ndgX8">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=kP372ndgX8">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=kP372ndgX8">
-  <link rel="manifest" href="/site.webmanifest?v=kP372ndgX8">
-  <link rel="mask-icon" href="/images/safari-pinned-tab.svg?v=kP372ndgX8" color="#ff0000">
-  <link rel="shortcut icon" href="/favicon.ico?v=kP372ndgX8">
-  <meta name="msapplication-TileColor" content="#2d89ef">
-  <meta name="theme-color" content="#ffffff">
+      <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=kP372ndgX8">
+      <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=kP372ndgX8">
+      <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=kP372ndgX8">
+      <link rel="manifest" href="/site.webmanifest?v=kP372ndgX8">
+      <link rel="mask-icon" href="/images/safari-pinned-tab.svg?v=kP372ndgX8" color="#ff0000">
+      <link rel="shortcut icon" href="/favicon.ico?v=kP372ndgX8">
+      <meta name="msapplication-TileColor" content="#2d89ef">
+      <meta name="theme-color" content="#ffffff">
 
-  {% include header.html %}
+      {% include header.html %}
 
 </head>
 
 <body>
 
-  {% include header-part.html %}
-  {% include sub-header-part.html %}
-
-  <div class="container-fluid main">
-
-      <div class="row">
+      {% include header-part.html %}
 
 
-          <div class="col-12 col-md-6 col-lg-4">
+      <div class="container-fluid main prj">
 
-              <h2 class="prj-title">
-               {% if page.pub %}
-                    <span class="nh">{{ page.pub }}</span>
-               {% endif %}
-               {{ page.title }}
-              </h2>
-
-              <p class="para-text-2 prj-deets-2">
-                  <span class="prj-deet">Tags</span> {{ page.tags | join: ", " }}, {{ page.year }} <br>
-                  <span class="prj-deet hanging">Client</span> {{ page.client }}<br>
-                  <span class="prj-deet hanging">Art Direction</span> {{ page.art_direction }}
-
-              </p>
-
-      {{ content }}
-
-  </div>
+            <div class="row">
 
 
+                  <div class="col-12 col-md-6 col-lg-4">
 
-  {% include prj-footer.html %}
-  {% include footer.html %}
+                        <h2 class="prj-title">
+                              {% if page.pub %}
+                              <span class="nh">{{ page.pub }}</span>
+                              {% endif %}
+                              {{ page.title }}
+                        </h2>
+
+                        <p class="para-text-2 prj-deets-2">
+                              <span class="prj-deet">Tags</span> {{ page.tags | join: ", " }}, {{ page.year | join: ", " }} <br>
+                              <span class="prj-deet hanging">Client</span> {{ page.client }}
+                              {% if page.art_direction %}
+                              <br><span class="prj-deet hanging">Art Direction</span> {{ page.art_direction }}
+                              {% endif %}
+
+                        </p>
+
+                        {{ content }}
+
+                        <div class="row">
+
+                              <div class="col-12 spacer-end">
+                                    <img class="spacer-img-l" src="/images/bolicha-spacer-1.jpg" alt="">
+                              </div>
+
+                        </div>
+
+                  </div>
+
+
+
+                  {% include prj-footer.html %}
+                  {% include sub-header-2-part.html %}
+                  {% include footer-prj.html %}
 
 </body>
 
