@@ -351,6 +351,10 @@ h3.serif {
     font-size: 14px;
 }
 
+.header, .sub-header {
+  overflow-x: hidden;
+}
+
 .header {
     padding-top: 10px;
     background-color: #F2F2F2;
@@ -413,7 +417,6 @@ h3.serif {
 
 .sub-header {
     padding-top: 10px;
-    overflow-x: hidden;
     z-index: 100;
     font-family: maple-web, sans-serif;
     font-weight: 400;
@@ -1100,7 +1103,7 @@ input.button:hover {
     }
 
     .sub-header {
-        padding-top: 158px;
+        padding-top: 146px;
     }
 
 
@@ -1123,6 +1126,10 @@ input.button:hover {
 
     .main.prj {
         margin-top: 100px;
+    }
+
+    .sub-header {
+        padding-top: 90px;
     }
 
     p.text,
@@ -1160,7 +1167,7 @@ input.button:hover {
     }
 
     .sub-header {
-        padding-top: 104px;
+        padding-top: 92px;
     }
 
     .pre-sub-spacer {
