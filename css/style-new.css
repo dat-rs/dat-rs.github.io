@@ -1254,3 +1254,9 @@ input.button:hover {
 
 
 }
+
+@media (hover: none) {
+    .grid-item-hover {
+      display: none;
+    }
+}
