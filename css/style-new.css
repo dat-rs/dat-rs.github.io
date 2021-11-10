@@ -298,6 +298,7 @@ h3.sub-title {
   font-family: maple-web, sans-serif;
   font-weight: 600;
   letter-spacing: -0.2px;
+  margin-top: 10px;
   margin-bottom: 5px;
   line-height: 1.2;
   max-width: 90%;
@@ -1026,6 +1027,14 @@ input.button:hover {
     font-weight: 900;
 }
 
+.client-list {
+  font-size: 20px;
+  font-family: maple-web, sans-serif;
+  font-weight: 200;
+  letter-spacing: -0.8px;
+  margin-bottom: 5px;
+  line-height: 1.4;
+}
 
 @keyframes slide{
   0%{
