@@ -265,7 +265,7 @@ h1 {
     margin: 0;
 }
 
-h2, {
+h2, .prj-title{
 
     font-size: 26px;
     font-family: maple-web, sans-serif;
@@ -366,6 +366,7 @@ h3.serif {
 
 .container-fluid.footer {
   background-color: #FF94C9;
+  margin-bottom: -10px;
 }
 
 .footer,
