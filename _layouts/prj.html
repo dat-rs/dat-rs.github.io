@@ -52,6 +52,9 @@
                         <p class="para-text-2 prj-deets-2">
                               <span class="prj-deet">Tags</span> {{ page.tags | join: ", " }}, {{ page.year | join: ", " }} <br>
                               <span class="prj-deet hanging">Client</span> {{ page.client }}
+                              {% if page.agency %}
+                              <br><span class="prj-deet hanging">Agency</span> {{ page.agency }}
+                              {% endif %}
                               {% if page.art_direction %}
                               <br><span class="prj-deet hanging">Art Direction</span> {{ page.art_direction }}
                               {% endif %}
