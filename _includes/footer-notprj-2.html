@@ -6,7 +6,7 @@
                         <h1>Office of <br>Ricardo Santos</h1>
                   </a>
                   <p>
-                        <br> ©2021 Office of Ricardo Santos.<br> All Rights Reserved.
+                        <br> © 2023 Office of Ricardo Santos.<br> All Rights Reserved.
 
                   </p>
             </div>
@@ -19,7 +19,7 @@
             <div class="col-6 col-lg-4 header-col">
                   <a class="top-link" href="http://eepurl.com/gBkp_z">newsletter</a><br>
                   <a class="top-link" href="https://instagram.com/dat.rs">instagram</a><br>
-                  <a class="top-link" href="https://twitter.com/dat_rs2">twitter</a><br>
+                  <a class="top-link" href="https://twitter.com/officesantos">twitter</a><br>
                   <a class="top-link" href="https://dribbble.com/dat-rs">dribbble</a>
 
             </div>
@@ -41,13 +41,6 @@
       var filterFns = {
 
       };
-
-      function getHashFilter() {
-            // get filter=filterName
-            var matches = location.hash.match(/filter=([^&]+)/i);
-            var hashFilter = matches && matches[1];
-            return hashFilter && decodeURIComponent(hashFilter);
-      }
 
       function getHashFilter() {
             // get filter=filterName
@@ -85,15 +78,11 @@
             // set selected class on button
             if (hashFilter) {
                   $filterButtonGroup.find('.is-checked').removeClass('is-checked');
-                  $filterButtonGroup.find('[data-filter="' + hashFilter + '"]').addClass('is-checked');
+                  $filterButtonGroup.find('[title="' + hashFilter + '"]').addClass('is-checked');
             }
       }
 
       $(window).on('hashchange', onHashchange);
-
-      $grid.isotope({
-            filter: '.selected',
-      });
 
       // trigger event handler to init Isotope
       onHashchange();

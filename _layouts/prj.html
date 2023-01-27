@@ -58,6 +58,9 @@
                               {% if page.art_direction %}
                               <br><span class="prj-deet hanging">Art Direction</span> {{ page.art_direction }}
                               {% endif %}
+                              {% if page.link %}
+                              <br><span class="prj-deet hanging">Link</span><a href="{{ page.link }}">{{ page.link }}</a>
+                              {% endif %}
 
                         </p>
 
@@ -76,7 +79,6 @@
 
 
                   {% include prj-footer.html %}
-                  {% include sub-header-2-part.html %}
                   {% include footer-prj.html %}
 
 </body>
