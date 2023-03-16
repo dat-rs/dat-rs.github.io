@@ -1,4 +1,4 @@
 ---
 layout: index
-title: 'Office of Ricardo Santos - graphic design & illustration'
+title: 'Graphic design & Illustration'
 ---
