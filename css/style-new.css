@@ -443,6 +443,7 @@ h3.serif {
 .container-fluid.footer {
   background-color: #FF94C9;
   margin-bottom: -10px;
+  padding-bottom: 30px;
 }
 
 .footer,
@@ -464,7 +465,7 @@ h3.serif {
 }
 
 .footer-sun {
-  width: 200px;
+  width: 150px;
 }
 
 .header-col {
