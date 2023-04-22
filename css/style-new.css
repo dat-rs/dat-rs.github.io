@@ -115,16 +115,16 @@
 }
 
 .bolicha-header {
-  max-width: 100%;
+  max-width: 101%;
   max-height: 80px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-left: -2px;
 }
 
 .header-other {
-  padding-top: 6px;
   font-weight: 400;
-  display: block;
+  margin-bottom: 0px;
 }
 
 /* Spacers */
@@ -252,6 +252,19 @@ button {
 
 }
 
+.title-after-img {
+  font-size: 14px;
+  line-height: 18px;
+  padding-top: 4px;
+  margin-bottom: 8px;
+  display: inline-block;
+  width: 98%;
+  height: 30px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 .grid-prj-tags {
     font-size: 10px;
     font-weight: 400;
@@ -343,26 +356,18 @@ h2.black {
 
 .contact-email {
   font-weight: 200;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .header-link {
-    font-size: 30px;
-    font-weight: 200;
-    letter-spacing: -0.8px;
-    margin-top: 3px;
-    margin-bottom: 5px;
-    padding-left: 2px;
-    padding-right: 2px;
-    padding-bottom: 2px;
-    column-span: all;
-    line-height: 1.2;
-    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    padding-bottom: 1px;
 }
 
 .header-link:hover {
-    color: #f2f2f2;
-    background-color: black;
+    border-bottom: 1px solid black;
 }
 
 h3.sub-title {
@@ -432,7 +437,6 @@ h3.serif {
 }
 
 .header {
-    padding-top: 5px;
     background-color: #F2F2F2;
     top: 0;
     z-index: 1000;
@@ -498,17 +502,15 @@ h3.serif {
 }
 
 .sub-header {
-    padding-top: 10px;
-    z-index: 100;
+    font-size: 14px;
+    line-height: 20px;
     font-weight: 400;
     letter-spacing: normal;
-    font-size: 13px;
-    line-height: 1;
     color: #f2f2f2;
     background-color: black;
-
-
-
+    padding-top: 10px;
+    padding-bottom: 15px;
+    z-index: 100;
 }
 
 .sub-header-perm-col {
@@ -529,7 +531,8 @@ h3.serif {
 }
 
 .header-row {
-    margin-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .sub-header-row {
@@ -559,73 +562,69 @@ a.top-link {
     border-bottom: none;
 }
 
-.sub-button-new, .fake-sub-button-new, .play-gif {
-    font-family: "The Future", sans-serif;
-    font-size: 24px;
-    font-weight: 200;
-    margin-left: 0px;
-    margin-right: 0px;
+input:is([type="button"], [type="submit"], [type="reset"]), input[type="file"]::file-selector-button, button {
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-left: 4px;
-    padding-right: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
     padding-top: 0px;
-    padding-bottom: 2px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border: none;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    line-height: inherit;
+}
+
+.sub-button, .fake-sub-button {
+    font-weight: 400;
     text-transform: capitalize;
     text-decoration: none;
-    display: inline-block;
-    border: none;
     color: #f2f2f2;
-    background-color: transparent;
     cursor: pointer;
+    padding-bottom: 1px;
+    margin-right: 4px;
+    margin-bottom: 6px
+}
+
+.sub-button:hover, .fake-sub-button:hover, ins.play-gif:hover {
+    border-bottom: 1px solid;
+    margin-bottom: 5px;
+    color: #f2f2f2;
+}
+
+.sub-button:focus, .sub-button.is-checked, .fake-sub-button:focus, .fake-sub-button.is-checked {
+    font-weight: 800;
+}
+
+h4.sub-header-subtitle {
+    font-family: "The Future", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #f2f2f2;
 }
 
 .sub-header-link {
-  font-size: 16px;
-  font-weight: 800;
   color: #f2f2f2;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-bottom: 2px;
+  display: inline-block;
+  margin-right: 4px;
+  margin-bottom: 7px;
 }
 
-.sub-button-new:hover, .fake-sub-button-new:hover, ins.play-gif:hover, .sub-header-link:hover {
-
-    color: black;
-    background-color: #f2f2f2;
-}
-
-.sub-button-new:focus, .sub-button-new.is-checked, .fake-sub-button-new:focus, .fake-sub-button-new.is-checked {
-    background-color: black;
-    font-weight: 800;
-    color: #f2f2f2;
+.sub-header-link:hover {
+  color: #f2f2f2;
+  border-bottom: 1px solid;
+  margin-bottom: 6px;
 }
 
 a.top-link:hover,
 a.top-link.selected,
-.sub-button.selected,
-.top-link.active,
-.sub-button:hover {
+.top-link.active {
     font-weight: 500;
-}
-
-.sub-prj-bullet {
-    font-weight: 400;
-    font-size: 11px;
-    line-height: inherit;
-    text-transform: uppercase;
-    height: 1.5rem;
-    min-width: 1.5rem;
-    color: #f2f2f2;
-    background-color: black;
-    border: 1px solid black;
-    padding: 6px 1px 2.5px 1.5px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 0px 5px 14px 1px;
-    border-radius: 16px;
 }
 
 #store-link {
@@ -637,46 +636,6 @@ a.top-link.selected,
 #store-link:hover {
     font-weight: initial;
 
-}
-
-.sub-button,
-.fake-sub-button .sub-header-subtitle {
-    cursor: pointer;
-    border: none;
-    padding: 0;
-    margin-bottom: 5px;
-    line-height: 1;
-    display: inline-block;
-    background-color: transparent;
-    color: black;
-}
-
-.sub-button,
-.fake-sub-button {
-    font-size: 13px;
-    /* text-transform: uppercase; */
-    letter-spacing: 0;
-}
-
-h4.sub-header-subtitle {
-    font-family: "The Future", sans-serif;
-    font-weight: 400;
-    font-size: 12px;
-    color: #f2f2f2;
-    border-top: 0px solid black;
-    display: block;
-    padding-top: 10px;
-    padding-bottom: 1px;
-    padding-left: 5px;
-}
-
-
-
-.sub-button,
-.fake-sub-button {
-    border-bottom: 1px solid black;
-    display: inline-block;
-    margin-right: 5px;
 }
 
 .collapse.show {
@@ -726,12 +685,16 @@ h4.sub-header-subtitle {
     height: 100%;
 }
 
+.main.index {
+  background-color: #ffffff;
+}
+
 .container-fluid.contact {
     margin-top: 80px;
 }
 
 .main.prj {
-
+  background-color: #f2f2f2;
 }
 
 .blog {
@@ -827,7 +790,7 @@ p.text,
 p.more-text,
 p.quoted-text,
 p.para-text {
-    line-height: 1.4;
+    line-height: 1.6;
     max-width: 100%;
 }
 
@@ -1117,12 +1080,12 @@ input.button:hover {
     margin-bottom: 5px;
 }
 
-.fake-sub-button-new.newsletter {
+.fake-sub-button.newsletter {
     font-weight: 200;
 }
 
 .client-list {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 200;
   letter-spacing: -0.2px;
   margin-bottom: 5px;
@@ -1136,66 +1099,6 @@ input.button:hover {
   100%{
     transform: translate3d(-3000px, 0, 0);
   }
-}
-
-@keyframes smile-hue {
-
-    0% {
-        filter: hue-rotate(0deg);
-    }
-
-    10% {
-        filter: hue-rotate(36deg);
-    }
-
-    20% {
-        filter: hue-rotate(72deg);
-    }
-
-    30% {
-        filter: hue-rotate(108deg);
-    }
-
-    40% {
-        filter: hue-rotate(144deg);
-    }
-
-    50% {
-        filter: hue-rotate(180deg);
-    }
-
-    60% {
-        filter: hue-rotate(216deg);
-    }
-
-    70% {
-        filter: hue-rotate(252deg);
-    }
-
-    80% {
-        filter: hue-rotate(288deg);
-    }
-
-    90% {
-        filter: hue-rotate(324deg);
-    }
-
-    100% {
-        filter: hue-rotate(360deg);
-    }
-
-}
-
-@keyframes smile-rotation {
-
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(359deg);
-    }
-
 }
 
 
@@ -1223,6 +1126,11 @@ input.button:hover {
         position: fixed;
     }
 
+    .header-row {
+        margin-top: 4px;
+        margin-bottom: 4px;
+    }
+
 }
 
 @media (min-width: 768px) {
@@ -1239,7 +1147,7 @@ input.button:hover {
     p.more-text,
     p.quoted-text,
     p.para-text {
-        line-height: 1.5;
+        line-height: 1.6;
     }
 
     .list-prj-tags {
@@ -1259,6 +1167,14 @@ input.button:hover {
 
     .c-img {
         max-width: 60%;
+    }
+
+    .contact-email {
+      font-size: 40px;
+    }
+
+    .client-list {
+      font-size: 36px;
     }
 
 }
