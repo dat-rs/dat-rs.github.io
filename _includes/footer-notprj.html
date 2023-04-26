@@ -64,10 +64,6 @@
 
       $(window).on('hashchange', onHashchange);
 
-      $grid.isotope({
-            filter: '.selected',
-      });
-
       // trigger event handler to init Isotope
       onHashchange();
 
@@ -78,7 +74,5 @@
             $grid.isotope('layout');
       });
 
-      $grid.isotope({
-            filter: '.selected'
-      });
+
 </script>

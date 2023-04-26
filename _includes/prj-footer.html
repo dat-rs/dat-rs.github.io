@@ -40,12 +40,6 @@
       <!-- previous/next + newsletter row -->
       <div class="grid-row row">
 
-            <div class="grid-item col-12 order-0">
-
-                  <h2 class="prj-footer-title">More</h2>
-
-            </div>
-
 
             {% if prevurl != null  %}
             <div class="grid-item col-12 col-md-6 col-lg-4 order-md-1">
@@ -53,8 +47,15 @@
 
                   <a href="{{ prevurl | escape_once }}">
                         <img class="grid-img" src="/images/{{ page.previous.prj_img }}" alt="{{ page.previous.title }}">
-                        <div class="grid-item-hover">
-                              <h2 class="prj-title">{{ page.previous.title }}</h2>
+
+                        <div class="title-after-img">
+                          <h2 class="body-prj-title">
+                            {{ page.previous.title }}
+                            {% if page.previous.pub %}
+                            <span class=""> → {{ page.previous.pub }}</span>
+                            {% endif %}
+                          </h2>
+
 
                         </div>
                   </a>
@@ -69,8 +70,15 @@
 
                   <a href="{{ nexturl | escape_once }}">
                         <img class="grid-img" src="/images/{{ page.next.prj_img }}" alt="{{ page.next.title }}">
-                        <div class="grid-item-hover">
-                              <h2 class="prj-title">{{ page.next.title }}</h2>
+                        <div class="title-after-img">
+                          <h2 class="body-prj-title">
+                            {{ page.next.title }}
+                            {% if page.next.pub %}
+                            <span class=""> → {{ page.next.pub }}</span>
+                            {% endif %}
+
+                          </h2>
+
 
                         </div>
                   </a>
@@ -85,8 +93,8 @@
 
                   <a href="http://eepurl.com/gBkp_z">
                         <img class="grid-img" src="/images/newsletter-prj-footer.jpg" alt="Newsletter">
-                        <div class="grid-item-hover">
-                              <h2 class="prj-title">Newsletter</h2>
+                        <div class="title-after-img">
+                          <h2 class="body-prj-title">Newsletter</h2>
 
                         </div>
                   </a>
@@ -111,13 +119,16 @@
 
                   <a href="{{ project.url }}">
                         <img class="grid-img" src="/images/{{ project.prj_img }}" alt="{{ project.title }}">
-                        <div class="grid-item-hover">
-                              <h2 class="prj-title">
-                                    {% if project.pub %}
-                                    <span class="nh">{{ project.pub }}</span>
-                                    {% endif %}
-                                    {{ project.title }}
-                              </h2>
+                        <div class="title-after-img">
+
+                          <h2 class="body-prj-title">
+                            {{ project.title }}
+                            {% if project.pub %}
+                            <span class=""> → {{ project.pub }}</span>
+                            {% endif %}
+                          </h2>
+
+
                         </div>
                   </a>
             </div>
