@@ -360,7 +360,7 @@ h2.body-prj-title {
 }
 
 .in-prj-title-col {
-  margin-bottom: 45px;
+  margin-bottom: 30px;
 }
 
 h2.black {
@@ -730,6 +730,14 @@ img {
     letter-spacing: normal;
     font-weight: 500;
     line-height: 1.4;
+}
+
+.caption {
+  padding-top: 8px;
+}
+
+.caption::before {
+  content: "↑ "
 }
 
 .para-text-2,
