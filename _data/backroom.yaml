@@ -1,6 +1,5 @@
 - title: 'Tres Amigos'
   image: 'tres-amigos.jpg'
-  grid: '8'
 
 - title: 'Multitudes headshot'
   image: 'multitudes-headshot.jpg'
@@ -11,5 +10,19 @@
 - title: 'Ditch Days killed sketch 2'
   image: 'dd-familiar-faces-sketch-2.jpg'
 
+- title: 'Illustration for a killed Bon Appetit piece'
+  image: 'kueh.jpg'
+  grid: '8'
+
 - title: 'Trying out The Future typeface and Dall-e'
   image: 'shall-i-compare-thee.jpg'
+
+- title: 'Collage. A Desert of Ideas, An Idea of Desert'
+  image: 'a-desert-of-ideas-an-idea-of-desert.jpg'
+  grid: '8'
+
+- title: 'Messing with Dall-e'
+  image: 'mercury.jpg'
+
+- title: 'Self Portrait'
+  image: 'canvas-self-portrait.jpg'
