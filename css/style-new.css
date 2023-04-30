@@ -1121,13 +1121,11 @@ input.button:hover {
 }
 
 
-@media (min-width: 481px) {
+/* sm */
 
-    .main.prj {
-        margin-top: 89px;
-    }
+@media (min-width: 576px) {
 
-    .sub-header {
+    .sub-header, .main.prj {
         padding-top: 100px;
     }
 
@@ -1152,13 +1150,11 @@ input.button:hover {
 
 }
 
+/* md */
+
 @media (min-width: 768px) {
 
-    .main.prj {
-        margin-top: 63px;
-    }
-
-    .sub-header {
+    .sub-header, .main.prj {
         padding-top: 75px;
     }
 
@@ -1198,14 +1194,12 @@ input.button:hover {
 
 }
 
+/* lg */
+
 @media (min-width: 992px) {
 
-    .main.prj {
-        margin-top: 82px;
-    }
-
-    .sub-header {
-        padding-top: 62px;
+    .sub-header, .main.prj {
+        padding-top: 55px;
     }
 
     .pre-sub-spacer {
@@ -1247,13 +1241,23 @@ input.button:hover {
 
 }
 
+/* xl */
+
 @media (min-width: 1200px) {
 
-    p.text,
-    p.more-text,
-    p.serif-text {
-        max-width: 80%;
+      .sub-header, .main.prj {
+        padding-top: 60px;
+      }
+}
+
+/* xxl */
+
+@media (min-width: 1400px) {
+
+    .sub-header, .main.prj {
+        padding-top: 82px;
     }
+
 }
 
 @media (pointer: fine) {

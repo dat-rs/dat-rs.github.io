@@ -35,6 +35,9 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  backroom-items:
+    output: true
+    permalink: /backroom/:path/
 
 # Exclude from processing.
 # The following items will not be processed, by default.
