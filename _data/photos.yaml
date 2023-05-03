@@ -1,0 +1,16 @@
+- title: 'Self Portrait, Sesimbra'
+  image: 'self-portrait-sesimbra.jpg'
+
+- title: 'Sofia, Fioca'
+  image: 'sofia-fioca.jpg'
+
+- title: 'Ducks III'
+  image: 'ducks-3.jpg'
+
+- title: 'Ducks II'
+  image: 'ducks-2.jpg'
+  grid: '8'
+
+- title: 'Pace'
+  image: 'pace.jpg'
+  grid: '8'
