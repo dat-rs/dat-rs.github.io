@@ -1,0 +1,138 @@
+<!-- liquid code for previous/next artifact buttons -->
+
+{% capture the_collection %}{{page.collection}}{% endcapture %}
+
+{% if page.collection %}
+{% assign  document = site[the_collection] %}
+{% endif %}
+
+{% for links in document  %}
+{% if links.title == page.title %}
+{% unless forloop.first %}
+{% assign prevurl = prev.url %}
+{% endunless %}
+{% unless your_collection_name.last.url %}
+{% assign next = document[forloop.index] %}
+{% assign nexturl = next.url %}
+{% endunless %}
+{% endif %}
+{% assign prev = links %}
+{% if page.collection %}
+{% assign  document = site[the_collection] %}
+{% endif %}
+
+{% for links in document  %}
+{% if links.title == page.title %}
+{% unless forloop.first %}
+{% assign prevurl = prev.url %}
+{% endunless %}
+{% unless your_collection_name.last.url %}
+{% assign next = document[forloop.index] %}
+{% assign nexturl = next.url %}
+{% endunless %}
+{% endif %}
+{% assign prev = links %}
+{% endfor %}{% endfor %}
+
+
+<div class="container-fluid prj-footer">
+
+      <!-- previous/next + newsletter row -->
+      <div class="grid-row row">
+
+
+            {% if prevurl != null  %}
+            <div class="grid-item col-12 col-md-6 col-lg-4 order-md-1">
+                  <h3 class="prj-footer-sub-title">Next project</h3>
+
+                  <a href="{{ prevurl | escape_once }}">
+                        <img class="grid-img" src="/images/{{ page.previous.prj_img }}" alt="{{ page.previous.title }}">
+
+                        <div class="title-after-img">
+                          <h2 class="body-prj-title">
+                            {{ page.previous.title }}
+                            {% if page.previous.pub %}
+                            <span class=""> → {{ page.previous.pub }}</span>
+                            {% endif %}
+                          </h2>
+
+
+                        </div>
+                  </a>
+
+            </div>
+
+            {% endif %}
+
+            {% if nexturl != null %}
+            <div class="grid-item col-12 col-md-6 col-lg-4 order-md-2">
+                  <h3 class="prj-footer-sub-title">Previous project</h3>
+
+                  <a href="{{ nexturl | escape_once }}">
+                        <img class="grid-img" src="/images/{{ page.next.prj_img }}" alt="{{ page.next.title }}">
+                        <div class="title-after-img">
+                          <h2 class="body-prj-title">
+                            {{ page.next.title }}
+                            {% if page.next.pub %}
+                            <span class=""> → {{ page.next.pub }}</span>
+                            {% endif %}
+
+                          </h2>
+
+
+                        </div>
+                  </a>
+
+            </div>
+
+            {% endif %}
+
+            <div class="grid-item col-12 col-md-6 col-lg-4 order-md-3">
+
+                  <h3 class="prj-footer-sub-title">Subscribe</h3>
+
+                  <a href="http://eepurl.com/gBkp_z">
+                        <img class="grid-img" src="/images/newsletter-prj-footer.jpg" alt="Newsletter">
+                        <div class="title-after-img">
+                          <h2 class="body-prj-title">Newsletter</h2>
+
+                        </div>
+                  </a>
+
+            </div>
+
+      </div>
+
+      <!-- other projects row -->
+      <div class="grid-row row">
+
+            <div class="grid-item col-12 col-lg-12">
+
+                  <h3 class="prj-footer-sub-title other-prjs">Other Projects</h3>
+                  {% assign sampled_projects = site.projects | sample: 6  %}
+
+            </div>
+
+            {% for project in sampled_projects %}
+
+            <div class="grid-item col-12 col-md-6 col-lg-4">
+
+                  <a href="{{ project.url }}">
+                        <img class="grid-img" src="/images/{{ project.prj_img }}" alt="{{ project.title }}">
+                        <div class="title-after-img">
+
+                          <h2 class="body-prj-title">
+                            {{ project.title }}
+                            {% if project.pub %}
+                            <span class=""> → {{ project.pub }}</span>
+                            {% endif %}
+                          </h2>
+
+
+                        </div>
+                  </a>
+            </div>
+            {% endfor %}
+
+      </div>
+</div>

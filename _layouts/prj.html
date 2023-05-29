@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+      <!-- Global site tag (gtag.js) - Google Analytics -->
+      <script defer data-domain="dat-rs.com" src="https://plausible.io/js/plausible.js"></script>
+      <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111744030-1"></script>
+      <script>
+            window.dataLayer = window.dataLayer || [];
+
+            function gtag() {
+                  dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+
+            gtag('config', 'UA-111744030-1');
+      </script>
+
+      <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png?v=kP372ndgX8">
+      <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=kP372ndgX8">
+      <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=kP372ndgX8">
+      <link rel="manifest" href="/site.webmanifest?v=kP372ndgX8">
+      <link rel="mask-icon" href="/images/safari-pinned-tab.svg?v=kP372ndgX8" color="#ff0000">
+      <link rel="shortcut icon" href="/favicon.ico?v=kP372ndgX8">
+      <meta name="msapplication-TileColor" content="#2d89ef">
+      <meta name="theme-color" content="#ffffff">
+
+      {% include header.html %}
+
+</head>
+
+<body>
+
+      {% include header-part.html %}
+
+
+      <div class="container-fluid main prj">
+
+            <div class="row g-3">
+
+                  <div class="col-12 in-prj-title-col">
+
+                    <h2 class="prj-title">
+                          {% if page.pub %}
+                          <span class="nh">{{ page.pub }}</span>
+                          {% endif %}
+                          {{ page.title }}
+                    </h2>
+
+                  </div>
+
+                  <div class="col-12 col-md-6 col-lg-4">
+
+                        <p class="para-text-2 prj-deets-2">
+
+                              <span class="prj-deet">Client</span> {{ page.client }}
+                              {% if page.agency %}
+                              <br><span class="prj-deet hanging">Agency</span> {{ page.agency }}
+                              {% endif %}
+                              {% if page.art_direction %}
+                              <br><span class="prj-deet hanging">Art Direction</span> {{ page.art_direction }}
+                              {% endif %}
+                              {% if page.link %}
+                              <br><span class="prj-deet hanging">Link</span><a href="{{ page.link }}">{{ page.link }}</a>
+                              {% endif %}
+                              <span class="prj-deet hanging">Tags</span> {{ page.tags | join: ", " }}, {{ page.year | join: ", " }}
+
+                        </p>
+
+                        {{ content }}
+
+                        <div class="row">
+
+                              <div class="col-12 spacer-end">
+                                    <img class="spacer-img-l" src="/images/bolicha-spacer-1.jpg" alt="">
+                              </div>
+
+                        </div>
+
+                  </div>
+
+
+
+                  {% include prj-footer.html %}
+                  {% include footer-prj.html %}
+
+</body>
+
+</html>

@@ -1,0 +1,26 @@
+---
+layout: notprj-3
+---
+
+<div class="container-fluid main backroom-index">
+
+      <div class="grid-row row g-3">
+
+
+            {% for item in site.data.photos %}
+            {% assign item_grid_xl = item.grid | divided_by: 2 %}
+            <div class="grid-item col-12 col-sm-6 col-md-6 col-lg-{% if item.grid %}{{ item.grid }}{% else %}4{% endif %} col-xxl-{% if item.grid %}{{ item_grid_xl }}{% else %}2{% endif %}">
+
+                        <img class="grid-img" src="/images/photos/{{ item.image }}" alt="{{ item.title }}">
+
+                        <div class="title-after-img">
+                          <h2 class="body-prj-title">
+                            {{ item.title }}
+                          </h2>
+                        </div>
+            </div>
+            {% endfor %}
+
+      </div>
+
+</div>
