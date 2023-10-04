@@ -1256,6 +1256,16 @@ input.button:hover {
 
 }
 
+/* xxxl */
+
+@media (min-width: 2300px) {
+
+    .sub-header, .main.prj {
+        padding-top: 94px;
+    }
+
+}
+
 @media (pointer: fine) {
 
     .list-item-smile,
