@@ -360,7 +360,7 @@ h2.body-prj-title {
 }
 
 .in-prj-title-col {
-  margin-bottom: 30px;
+  margin-bottom: 8px;
 }
 
 h2.black {
@@ -710,6 +710,12 @@ a.top-link.selected,
   background-color: #ffffff;
   padding-bottom: 0px;
 }
+
+.prj-sub-header {
+    background-color: #ebebeb;
+}
+
+
 
 .blog {
     margin-top: 32px;
@@ -1121,7 +1127,7 @@ input.button:hover {
 
 @media (min-width: 576px) {
 
-    .sub-header, .main.prj {
+    .sub-header, .prj-after-header {
         padding-top: 100px;
     }
 
@@ -1150,7 +1156,7 @@ input.button:hover {
 
 @media (min-width: 768px) {
 
-    .sub-header, .main.prj {
+    .sub-header, .prj-after-header {
         padding-top: 75px;
     }
 
@@ -1194,7 +1200,7 @@ input.button:hover {
 
 @media (min-width: 992px) {
 
-    .sub-header, .main.prj {
+    .sub-header, .prj-after-header {
         padding-top: 55px;
     }
 
@@ -1241,7 +1247,7 @@ input.button:hover {
 
 @media (min-width: 1200px) {
 
-      .sub-header, .main.prj {
+      .sub-header, .prj-after-header {
         padding-top: 60px;
       }
 }
@@ -1250,7 +1256,7 @@ input.button:hover {
 
 @media (min-width: 1400px) {
 
-    .sub-header, .main.prj {
+    .sub-header, .prj-after-header {
         padding-top: 82px;
     }
 
@@ -1260,7 +1266,7 @@ input.button:hover {
 
 @media (min-width: 2300px) {
 
-    .sub-header, .main.prj {
+    .sub-header, .prj-after-header {
         padding-top: 94px;
     }
 

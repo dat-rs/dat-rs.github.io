@@ -35,20 +35,23 @@
       {% include header-part.html %}
 
 
+      <div class="container-fluid prj-sub-header prj-after-header">
+            <div class="row  g-3">
+                  <div class="col-12 in-prj-title-col">
+
+                        <h2 class="prj-title">
+                              {% if page.pub %}
+                              <span class="nh">{{ page.pub }}</span>
+                              {% endif %}
+                              {{ page.title }}
+                        </h2>
+    
+                      </div>
+            </div>
+      </div>
       <div class="container-fluid main prj">
 
             <div class="row g-3">
-
-                  <div class="col-12 in-prj-title-col">
-
-                    <h2 class="prj-title">
-                          {% if page.pub %}
-                          <span class="nh">{{ page.pub }}</span>
-                          {% endif %}
-                          {{ page.title }}
-                    </h2>
-
-                  </div>
 
                   <div class="col-12 col-md-6 col-lg-4">
 
