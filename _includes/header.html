@@ -1,35 +1,81 @@
-<!-- Twitter Card data -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:site" content="@officesantos">
-<meta name="twitter:title" content="Office Santos → {{ page.title }}">
-<meta name="twitter:description" content="Graphic design & Illustration. Lisbon → World.">
-<meta name="twitter:creator" content="@officesantos">
-<!-- Twitter Summary card images must be at least 120x120px -->
-<meta name="twitter:image" content="http://dat-rs.com/images/{{ page.prj_img }}">
+<head>
 
-<!-- Open Graph data -->
-<meta property="og:title" content="Office Santos → {{ page.title }}" />
-<meta property="og:type" content="website" />
-<meta property="og:url" content="http://dat-rs.com/{{ page.permalink }}" />
-<meta property="og:image" content="http://dat-rs.com/images/{{ page.prj_img }}" />
-<meta property="og:description" content="Graphic design & Illustration. Lisbon → World." />
-<meta property="og:site_name" content="Office Santos" />
-<meta property="fb:admins" content="Facebook numeric ID" />
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script defer data-domain="dat-rs.com" src="https://plausible.io/js/plausible.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-111744030-1"></script>
+    <script>
+          window.dataLayer = window.dataLayer || [];
 
-<!-- theme-color meta tag -->
-<meta name="theme-color" content="#f2f2f2">
+          function gtag() {
+                dataLayer.push(arguments);
+          }
+          gtag('js', new Date());
 
-<!-- Required meta tags -->
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+          gtag('config', 'UA-111744030-1');
+    </script>
 
-<!-- Bootstrap CSS -->
-<link rel="stylesheet" href="/css/bootstrap.css">
-<link rel="stylesheet" href="/css/style-new.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-touch-icon.png?v=kP372ndgX8">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png?v=kP372ndgX8">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png?v=kP372ndgX8">
+    <link rel="manifest" href="/site.webmanifest?v=kP372ndgX8">
+    <link rel="mask-icon" href="/images/safari-pinned-tab.svg?v=kP372ndgX8" color="#ff0000">
+    <link rel="shortcut icon" href="/favicon.ico?v=kP372ndgX8">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="theme-color" content="#ffffff">
 
-<link rel="stylesheet" href="https://use.typekit.net/kjl8cvq.css">
+    <!-- Favicons -->
+      <link rel="apple-touch-icon" sizes="57x57" href="/images/favicons/apple-icon-57x57.png">
+      <link rel="apple-touch-icon" sizes="60x60" href="/images/favicons/apple-icon-60x60.png">
+      <link rel="apple-touch-icon" sizes="72x72" href="/images/favicons/apple-icon-72x72.png">
+      <link rel="apple-touch-icon" sizes="76x76" href="/images/favicons/apple-icon-76x76.png">
+      <link rel="apple-touch-icon" sizes="114x114" href="/images/favicons/apple-icon-114x114.png">
+      <link rel="apple-touch-icon" sizes="120x120" href="/images/favicons/apple-icon-120x120.png">
+      <link rel="apple-touch-icon" sizes="144x144" href="/images/favicons/apple-icon-144x144.png">
+      <link rel="apple-touch-icon" sizes="152x152" href="/images/favicons/apple-icon-152x152.png">
+      <link rel="apple-touch-icon" sizes="180x180" href="/images/favicons/apple-icon-180x180.png">
+      <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicons/android-icon-192x192.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/images/favicons/favicon-32x32.png">
+      <link rel="icon" type="image/png" sizes="96x96" href="/images/favicons/favicon-96x96.png">
+      <link rel="icon" type="image/png" sizes="16x16" href="/images/favicons/favicon-16x16.png">
+      <link rel="manifest" href="/images/favicons/manifest.json">
+      <meta name="msapplication-TileColor" content="#ffffff">
+      <meta name="msapplication-TileImage" content="/images/favicons/ms-icon-144x144.png">
+      <meta name="theme-color" content="#ffffff">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@officesantos">
+    <meta name="twitter:title" content="Office Santos → {{ page.title }}">
+    <meta name="twitter:description" content="Graphic design & Illustration. Lisbon → World.">
+    <meta name="twitter:creator" content="@officesantos">
+    <!-- Twitter Summary card images must be at least 120x120px -->
+    <meta name="twitter:image" content="http://dat-rs.com/images/{{ page.prj_img }}">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Office Santos → {{ page.title }}" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://dat-rs.com/{{ page.permalink }}" />
+    <meta property="og:image" content="http://dat-rs.com/images/{{ page.prj_img }}" />
+    <meta property="og:description" content="Graphic design & Illustration. Lisbon → World." />
+    <meta property="og:site_name" content="Office Santos" />
+    <meta property="fb:admins" content="Facebook numeric ID" />
+
+    <!-- theme-color meta tag -->
+    <meta name="theme-color" content="#f2f2f2">
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.css">
+    <link rel="stylesheet" href="/css/style-new.css">
+
+    <link rel="stylesheet" href="https://use.typekit.net/kjl8cvq.css">
 
 
 
-<title>Office Santos → {{ page.title }}{% if page.client %} - {{ page.client }}{% endif %}</title>
-<meta name="Description" content="{{ page.description }}">
+    <title>{{ page.title }}{% if page.client %} - {{ page.client }}{% endif %} → Office Santos</title>
+    <meta name="Description" content="{{ page.description }}">
+
+</head>

@@ -1,7 +1,8 @@
 ---
 layout: notprj
-title: 'Graphic design & Illustration'
+title: 'Work'
 prj_img: 'nomadic-4-complexity.jpg'
+description: "Illustration for The New York Times Magazine Screenland feature about the feud between two top golfers."
 ---
 
 <div class="container-fluid main index">
@@ -9,20 +10,21 @@ prj_img: 'nomadic-4-complexity.jpg'
       <div class="grid-row row g-3">
 
             {% for project in site.projects reversed %}
-      
+
             {% assign project_grid_xl = project.grid | divided_by: 2 %}
-            <div class="grid-item col-12 col-sm-6 col-md-6 col-lg-{% if project.grid %}{{ project.grid }}{% else %}4{% endif %} col-xxl-{% if project.grid %}{{ project_grid_xl }}{% else %}2{% endif %} {% if project.client == "Studio Project" %}studio-prj{% endif %} {{ project.tags | join: " " }} {{ project.year }}">
+            <div class="grid-item col-12 col-sm-6 col-md-6 col-lg-{% if project.grid %}{{ project.grid }}{% else %}4{% endif %} col-xxl-{% if project.grid %}{{ project_grid_xl }}{% else %}2{% endif %} {% if project.client == "
+                  Studio Project" %}studio-prj{% endif %} {{ project.tags | join: " " }} {{ project.year }}">
 
                   <a href="{{ project.url }}">
                         <img class="grid-img" src="/images/{{ project.prj_img }}" alt="{{ project.title }}">
 
                         <div class="title-after-img">
-                          <h2 class="body-prj-title">
-                            {{ project.title }}
-                            {% if project.pub %}
-                            <span class=""> → {{ project.pub }}</span>
-                            {% endif %}
-                          </h2>
+                              <h2 class="body-prj-title">
+                                    {{ project.title }}
+                                    {% if project.pub %}
+                                    <span class=""> → {{ project.pub }}</span>
+                                    {% endif %}
+                              </h2>
 
                         </div>
                   </a>
