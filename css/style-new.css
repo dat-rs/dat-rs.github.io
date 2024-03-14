@@ -124,6 +124,7 @@
 
 .header-other {
     font-weight: 400;
+    line-height: 20px;
     margin-bottom: 0px;
 }
 
@@ -378,8 +379,7 @@ h2.black {
 .header-link {
     font-size: 14px;
     font-weight: 600;
-    line-height: 16px;
-    padding-bottom: 1px;
+    line-height: 20px;
 }
 
 .header-link:hover {
