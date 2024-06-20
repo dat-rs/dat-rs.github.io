@@ -756,6 +756,18 @@ img {
     line-height: 1.4;
 }
 
+.prj-deet-link {
+    text-decoration: underline;
+}
+
+.custom-credit-link:hover {
+    text-decoration: underline;
+}
+
+.custom-credit-link::after {
+ content: " →";
+}
+
 .caption {
     padding-top: 8px;
 }

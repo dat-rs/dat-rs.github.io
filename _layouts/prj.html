@@ -37,8 +37,23 @@
                               {% if page.art_direction %}
                               <br><span class="prj-deet hanging">Art Direction</span> {{ page.art_direction }}
                               {% endif %}
+                              {% if page.custom_credit_1_label %}
+                              <br><span class="prj-deet hanging">{{ page.custom_credit_1_label }}</span>{% if page.custom_credit_1_link %}<a href="{{ page.custom_credit_1_link }}" class="custom-credit-link">{% endif %}{{ page.custom_credit_1_value
+                                    }}{% if page.custom_credit_1_link %}</a>{% endif %}
+                              {% endif %}
+                              {% if page.custom_credit_2_label %}
+                              <br><span class="prj-deet hanging">{{ page.custom_credit_2_label }}</span>{% if page.custom_credit_2_link %}<a href="{{ page.custom_credit_2_link }}" class="custom-credit-link">{% endif %}{{ page.custom_credit_2_value }}{% if page.custom_credit_2_link %}</a>{% endif %}
+                              {% endif %}
+                              {% if page.custom_credit_3_label %}
+                              <br><span class="prj-deet hanging">{{ page.custom_credit_3_label }}</span>{% if page.custom_credit_3_link %}<a href="{{ page.custom_credit_3_link }}" class="custom-credit-link">{% endif %}{{ page.custom_credit_3_value
+                                    }}{% if page.custom_credit_3_link %}</a>{% endif %}
+                              {% endif %}
+                              {% if page.custom_credit_4_label %}
+                              <br><span class="prj-deet hanging">{{ page.custom_credit_4_label }}</span>{% if page.custom_credit_4_link %}<a href="{{ page.custom_credit_4_link }}" class="custom-credit-link">{% endif %}{{ page.custom_credit_4_value
+                                    }}{% if page.custom_credit_4_link %}</a>{% endif %}
+                              {% endif %}
                               {% if page.link %}
-                              <br><span class="prj-deet hanging">Link</span><a href="{{ page.link }}">{{ page.link
+                              <br><span class="prj-deet hanging">Link</span><a href="{{ page.link }}" class="prj-deet-link">{{ page.link
                                     }}</a>
                               {% endif %}
                               <span class="prj-deet hanging">Tags</span> {{ page.tags | join: ", " }}, {{ page.year |
