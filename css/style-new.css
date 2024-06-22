@@ -820,7 +820,7 @@ img {
 .footnotes,
 .footnote,
 .list-item-divider {
-    color: darkgrey !important;
+    color: #666 !important;
     margin-bottom: 0;
 
 }
