@@ -737,6 +737,18 @@ img {
     max-width: 100%;
 }
 
+video {
+    padding-top: 1rem;
+}
+
+video::-internal-media-controls {
+    display: none;
+}
+
+video::-webkit-media-controls {
+    display: none;
+}
+
 .mono {
     font-family: "The Future Mono", sans-serif;
     font-size: 12px;
@@ -758,6 +770,7 @@ img {
 
 .prj-deet-link {
     text-decoration: underline;
+    color: gray;
 }
 
 .custom-credit-link:hover {
@@ -798,7 +811,7 @@ img {
 }
 
 .hanging::before {
-    background-color: #000;
+    background-color: gray;
     top: 0;
     content: '';
     height: 1px;
@@ -835,6 +848,10 @@ sup {
     column-span: all;
     font-size: 12px;
     font-weight: 500;
+}
+
+.prj-deets-2 {
+    color: gray;
 }
 
 .prj-tags {
