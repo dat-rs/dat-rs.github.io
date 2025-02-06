@@ -114,6 +114,11 @@
         url('/fonts/the-future-mono-black.woff2') format('woff2');
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 .bolicha-header {
     max-width: 101%;
     max-height: 80px;
