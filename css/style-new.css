@@ -738,7 +738,6 @@ img {
 }
 
 video {
-    padding-top: 1rem;
 }
 
 video::-internal-media-controls {
@@ -807,10 +806,10 @@ video::-webkit-media-controls {
 .hanging {
     position: relative;
     padding-top: 10px;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
-.hanging::before {
+.disc_hanging::before {
     background-color: gray;
     top: 0;
     content: '';
