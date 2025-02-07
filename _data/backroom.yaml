@@ -1,6 +1,6 @@
 - title: 'Pottery Sunny'
   image: 'pottery-sunny.jpg'
-  grid: '8'
+  grid: '4'
   
 - title: 
   image: 'eye-animation-inverted.gif'
@@ -19,14 +19,14 @@
 
 - title: 'Illustration for a killed Bon Appetit piece'
   image: 'kueh.jpg'
-  grid: '8'
+  grid: '4'
 
 - title: 'Trying out The Future typeface and Dall-e'
   image: 'shall-i-compare-thee.jpg'
 
 - title: 'Collage. A Desert of Ideas, An Idea of Desert'
   image: 'a-desert-of-ideas-an-idea-of-desert.jpg'
-  grid: '8'
+  grid: '4'
 
 - title: 'Messing with Dall-e'
   image: 'mercury.jpg'
@@ -39,7 +39,7 @@
 
 - title: Sofia's 25th birthday
   image: 'sofia-25.jpg'
-  grid: '8'
+  grid: '4'
 
 - title: 
   image: 'geometric-comp-1-hearts.jpg'
@@ -127,11 +127,11 @@
 
 - title: 
   image: 'tourist.jpg'
-  grid: '2'
+  grid: '1'
 
 - title: 
   image: 'busy-head.jpg'
-  grid: '8'
+  grid: '4'
 
 - title: 
   image: 'luis-rafael.jpg'
@@ -147,11 +147,11 @@
 
 - title: 
   image: 'world-environment-day.jpg'
-  grid: '2'
+  grid: '1'
 
 - title: 
   image: 'zao-mn.jpg'
-  grid: '8'
+  grid: '4'
 
 - title: Concerning the Blueness of Cheese
   image: 'concerning-the-blueness-of-cheese.gif'
