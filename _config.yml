@@ -27,6 +27,7 @@ url: "https://dat-rs.com" # the base hostname & protocol for your site, e.g. htt
 twitter_username: officesantos
 github_username:
 
+incremental: true
 # Build settings
 # theme: minima
 plugins:
