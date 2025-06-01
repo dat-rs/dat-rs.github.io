@@ -979,7 +979,7 @@ strong.fancy {
 .grid-img {
     max-width: 100%;
     &.index {
-    border-radius: 15px
+    border-radius: 8px
     }
 }
 
