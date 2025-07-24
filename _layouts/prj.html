@@ -35,7 +35,8 @@
                               <br><span class="prj-deet hanging">Agency</span> {{ page.agency }}
                               {% endif %}
                               {% if page.art_direction %}
-                              <br><span class="prj-deet hanging">Art Direction</span> {{ page.art_direction }}
+                              <br><span class="prj-deet hanging">Art Direction</span> 
+                              {% if page.ad_link %}<a href="{{ page.ad_link }}">{% endif %}{{ page.art_direction }}{% if page.ad_link %}</a>{% endif %}
                               {% endif %}
                               {% if page.custom_credit_1_label %}
                               <br><span class="prj-deet hanging">{{ page.custom_credit_1_label }}</span>{% if page.custom_credit_1_link %}<a href="{{ page.custom_credit_1_link }}" class="custom-credit-link">{% endif %}{{ page.custom_credit_1_value
