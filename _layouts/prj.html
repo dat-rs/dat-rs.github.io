@@ -5,12 +5,12 @@
 
 <body>
 
-      {% include header-part.html %}
+      {% include header-proper.html %}
 
 
       <div class="container-fluid prj-sub-header prj-after-header">
-            <div class="row g-3">
-                  <div class="col-12 in-prj-title-col">
+            <div class="row">
+                  <div class="col-3 in-prj-title-col">
 
                         <h2 class="prj-title">
                               {% if page.pub %}
@@ -20,58 +20,88 @@
                         </h2>
 
                   </div>
+
+                  <div class="col-3 prj-deet-col">
+                        <div class="para-text-2 prj-deets-2">
+                              <span class="prj-deet">Client</span> {{ page.client }}
+                              {% if page.agency %}
+                              <br><span class="prj-deet">Agency</span> {{ page.agency }}
+                              {% endif %}
+                              <br><br><span class="prj-deet">Year</span>
+                              {{ page.year |
+                              join: ", " }}
+                        </div>
+                  </div>
+
+                  <div class="col-3 prj-deet-col">
+                        <div class="para-text-2 prj-deets-2">
+                              {% if page.art_direction %}
+                              <span class="prj-deet">Art Direction</span>
+                              {% if page.ad_link %}<a href="{{ page.ad_link }}">{% endif %}{{ page.art_direction }}{% if
+                                    page.ad_link %}</a>
+                              {% endif%}
+                              <br><br>
+                              {% endif %}
+                              {% if page.custom_credit_1_label %}
+                              <span class="prj-deet">{{ page.custom_credit_1_label }}</span>{% if
+                              page.custom_credit_1_link %}<a href="{{ page.custom_credit_1_link }}"
+                                    class="custom-credit-link">{%
+                                    endif %}{{ page.custom_credit_1_value
+                                    }}{% if page.custom_credit_1_link %}</a>{% endif %}
+                              <br><br>
+                              {% endif %}
+                              {% if page.custom_credit_2_label %}
+                              <span class="prj-deet">{{ page.custom_credit_2_label }}</span>{% if
+                              page.custom_credit_2_link %}<a href="{{ page.custom_credit_2_link }}"
+                                    class="custom-credit-link">{%
+                                    endif %}{{ page.custom_credit_2_value }}{% if
+                                    page.custom_credit_2_link %}</a>{% endif %}
+                              <br><br>
+                              {% endif %}
+                              {% if page.custom_credit_3_label %}
+                              <span class="prj-deet">{{ page.custom_credit_3_label }}</span>{% if
+                              page.custom_credit_3_link %}<a href="{{ page.custom_credit_3_link }}"
+                                    class="custom-credit-link">{%
+                                    endif %}{{ page.custom_credit_3_value
+                                    }}{% if page.custom_credit_3_link %}</a>{% endif %}
+                              <br><br>
+                              {% endif %}
+                              {% if page.custom_credit_4_label %}
+                              <span class="prj-deet">{{ page.custom_credit_4_label }}</span>{% if
+                              page.custom_credit_4_link %}<a href="{{ page.custom_credit_4_link }}"
+                                    class="custom-credit-link">{%
+                                    endif %}{{ page.custom_credit_4_value
+                                    }}{% if page.custom_credit_4_link %}</a>{% endif %}
+                              {% endif %}
+                        </div>
+                  </div>
+
+                  <div class="col-3 prj-deet-col">
+                        <div class="para-text-2 prj-deets-2">
+                              {% if page.link %}
+                              <span class="prj-deet">Link</span><a href="{{ page.link }}" class="prj-deet-link">{{
+                                    page.link
+                                    }}</a>
+                              <br><br>
+                              {% endif %}
+                              <span class="prj-deet">Tags</span> {{ page.tags | join: ", " }}
+                        </div>
+                  </div>
+
+
             </div>
       </div>
       <div class="container-fluid main prj">
-
             <div class="row g-3">
-
-                  <div class="col-12 col-md-6 col-lg-4">
-
-                        <p class="para-text-2 prj-deets-2">
-
-                              <span class="prj-deet">Client</span> {{ page.client }}
-                              {% if page.agency %}
-                              <br><span class="prj-deet hanging">Agency</span> {{ page.agency }}
-                              {% endif %}
-                              {% if page.art_direction %}
-                              <br><span class="prj-deet hanging">Art Direction</span> 
-                              {% if page.ad_link %}<a href="{{ page.ad_link }}">{% endif %}{{ page.art_direction }}{% if page.ad_link %}</a>{% endif %}
-                              {% endif %}
-                              {% if page.custom_credit_1_label %}
-                              <br><span class="prj-deet hanging">{{ page.custom_credit_1_label }}</span>{% if page.custom_credit_1_link %}<a href="{{ page.custom_credit_1_link }}" class="custom-credit-link">{% endif %}{{ page.custom_credit_1_value
-                                    }}{% if page.custom_credit_1_link %}</a>{% endif %}
-                              {% endif %}
-                              {% if page.custom_credit_2_label %}
-                              <br><span class="prj-deet hanging">{{ page.custom_credit_2_label }}</span>{% if page.custom_credit_2_link %}<a href="{{ page.custom_credit_2_link }}" class="custom-credit-link">{% endif %}{{ page.custom_credit_2_value }}{% if page.custom_credit_2_link %}</a>{% endif %}
-                              {% endif %}
-                              {% if page.custom_credit_3_label %}
-                              <br><span class="prj-deet hanging">{{ page.custom_credit_3_label }}</span>{% if page.custom_credit_3_link %}<a href="{{ page.custom_credit_3_link }}" class="custom-credit-link">{% endif %}{{ page.custom_credit_3_value
-                                    }}{% if page.custom_credit_3_link %}</a>{% endif %}
-                              {% endif %}
-                              {% if page.custom_credit_4_label %}
-                              <br><span class="prj-deet hanging">{{ page.custom_credit_4_label }}</span>{% if page.custom_credit_4_link %}<a href="{{ page.custom_credit_4_link }}" class="custom-credit-link">{% endif %}{{ page.custom_credit_4_value
-                                    }}{% if page.custom_credit_4_link %}</a>{% endif %}
-                              {% endif %}
-                              {% if page.link %}
-                              <br><span class="prj-deet hanging">Link</span><a href="{{ page.link }}" class="prj-deet-link">{{ page.link
-                                    }}</a>
-                              {% endif %}
-                              <span class="prj-deet hanging">Tags</span> {{ page.tags | join: ", " }}, {{ page.year |
-                              join: ", " }}
-
-                        </p>
-
+                  <div class="col-12 col-md-6 col-lg-3">
                         {{ content }}
 
-                        <div class="row">
 
+                        <div class="row">
                               <div class="col-12 spacer-end">
                                     <img class="spacer-img-l" src="/images/sunny-spacer.jpg" alt="">
                               </div>
-
                         </div>
-
                   </div>
 
 

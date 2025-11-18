@@ -9,7 +9,8 @@ prj_img: 'nomadic-4-complexity.jpg'
 
       <div class="grid-row row g-3">
 
-            {% for project in site.projects reversed %}
+            {% assign sampled_projects = site.projects %}
+            {% for project in sampled_projects reversed %}
 
             <div class="grid-item col-12 col-sm-6 col-md-6 col-lg-{% if project.grid %}{{ project.grid }}{% else %}4 col-xl-3{% endif %} {% if project.client == 'Studio Project' %}studio-prj{% endif %} {{ project.tags | join: ' ' }} {{ project.year }}">
 
@@ -18,9 +19,9 @@ prj_img: 'nomadic-4-complexity.jpg'
 
                         <div class="title-after-img">
                               <h2 class="body-prj-title">
-                                    {{ project.title }}
+                                    {{ project.title }} <br>
                                     {% if project.pub %}
-                                    <span class=""> / {{ project.pub }}</span>
+                                    <span class="body-prj-pub" style="font-weight: ;">{{ project.pub }}</span>
                                     {% endif %}
                               </h2>
 

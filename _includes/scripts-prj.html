@@ -55,3 +55,25 @@
                         }
                 });
 </script>
+
+<script>
+        const header = document.getElementById("header");
+        const header_logo = document.getElementById("h1-img");
+        const header_text = document.getElementById("h1-txt");
+
+        window.addEventListener("scroll", () => {
+                        if (window.scrollY === 0) {
+                                // At the top
+                                header.classList.add("scrolling-up");
+                                header.classList.remove("scrolling-down");
+                                header_logo.classList.remove("op-0");
+                                header_text.classList.add("op-0");
+                        } else {
+                                // Any scroll down
+                                header.classList.add("scrolling-down");
+                                header.classList.remove("scrolling-up");
+                                header_logo.classList.add("op-0");
+                                header_text.classList.remove("op-0");
+                        }
+                });
+</script>

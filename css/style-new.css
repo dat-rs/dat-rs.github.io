@@ -3,115 +3,83 @@
 
 @font-face {
 
-    font-family: 'The Future';
+    font-family: 'Marcin Antique';
+    font-style: normal;
+    font-weight: 100;
+    src: local('Marcin Antique Thin'),
+        url('/fonts/MarcinAntiqueStandard-Thin.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Marcin Antique';
     font-style: normal;
     font-weight: 200;
-    src: local('The Future Thin'),
-        url('/fonts/the-future-thin.woff2') format('woff2');
+    src: local('Marcin Antique Extra Light'),
+        url('/fonts/MarcinAntiqueStandard-Extralight.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'The Future';
+    font-family: 'Marcin Antique';
     font-style: normal;
     font-weight: 300;
-    src: local('The Future Extra Light'),
-        url('/fonts/the-future-extralight.woff2') format('woff2');
+    src: local('Marcin Antique Light'),
+        url('/fonts/MarcinAntiqueStandard-Light.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'The Future';
+    font-family: 'Marcin Antique';
     font-style: normal;
     font-weight: 400;
-    src: local('The Future Light'),
-        url('/fonts/the-future-light.woff2') format('woff2');
+    src: local('Marcin Antique Book'),
+        url('/fonts/MarcinAntiqueStandard-Book.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'The Future';
+    font-family: 'Marcin Antique';
     font-style: normal;
     font-weight: 500;
-    src: local('The Future Regular'),
-        url('/fonts/the-future-regular.woff2') format('woff2');
+    src: local('Marcin Antique Regular'),
+        url('/fonts/MarcinAntiqueStandard-Regular.otf') format('otf');
 }
 
 @font-face {
-    font-family: 'The Future';
+    font-family: 'Marcin Antique';
     font-style: normal;
     font-weight: 600;
-    src: local('The Future Medium'),
-        url('/fonts/the-future-medium.woff2') format('woff2');
+    src: local('Marcin Antique Medium'),
+        url('/fonts/MarcinAntiqueStandard-Medium.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'The Future';
+    font-family: 'Marcin Antique';
+    font-style: normal;
+    font-weight: 650;
+    src: local('Marcin Antique SemiBold'),
+        url('/fonts/MarcinAntiqueStandard-Semibold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Marcin Antique';
     font-style: normal;
     font-weight: 700;
-    src: local('The Future Bold'),
-        url('/fonts/the-future-bold.woff2') format('woff2');
+    src: local('Marcin Antique Bold'),
+        url('/fonts/MarcinAntiqueStandard-Bold.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'The Future';
+    font-family: 'Marcin Antique';
     font-style: normal;
     font-weight: 800;
-    src: local('The Future Black'),
-        url('/fonts/the-future-black.woff2') format('woff2');
+    src: local('Marcin Antique Black'),
+        url('/fonts/MarcinAntiqueStandard-Black.woff2') format('woff2');
 }
 
 @font-face {
-    font-family: 'The Future Mono';
-    font-style: normal;
-    font-weight: 200;
-    src: local('The Future Mono Thin'),
-        url('/fonts/the-future-mono-thin.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'The Future Mono';
-    font-style: normal;
-    font-weight: 300;
-    src: local('The Future Mono Extra Light'),
-        url('/fonts/the-future-mono-extralight.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'The Future Mono';
-    font-style: normal;
-    font-weight: 400;
-    src: local('The Future Mono Light'),
-        url('/fonts/the-future-mono-light.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'The Future Mono';
-    font-style: normal;
-    font-weight: 500;
-    src: local('The Future Mono Regular'),
-        url('/fonts/the-future-mono-regular.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'The Future Mono';
-    font-style: normal;
-    font-weight: 600;
-    src: local('The Future Mono Medium'),
-        url('/fonts/the-future-mono-medium.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'The Future Mono';
-    font-style: normal;
-    font-weight: 700;
-    src: local('The Future Mono Bold'),
-        url('/fonts/the-future-mono-bold.woff2') format('woff2');
-}
-
-@font-face {
-    font-family: 'The Future Mono';
+    font-family: 'Marcin Antique';
     font-style: normal;
     font-weight: 800;
-    src: local('The Future Mono Black'),
-        url('/fonts/the-future-mono-black.woff2') format('woff2');
+    src: local('Marcin Antique Extra'),
+        url('/fonts/MarcinAntiqueStandard-Extra.woff2') format('woff2');
 }
 
 a {
@@ -119,12 +87,12 @@ a {
     text-decoration: none;
 }
 
-.bolicha-header {
+.logotype-header {
     max-width: 101%;
-    max-height: 80px;
     padding-top: 2px;
     padding-bottom: 2px;
     margin-left: -2px;
+    padding-bottom: 15px;
 }
 
 .header-other {
@@ -248,28 +216,15 @@ button {
     margin-top: 7.5px;
 }
 
-.grid-item-hover {
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 7.5px;
-    color: black;
-    width: calc(100% - 15px);
-    height: 51%;
-    background-origin: content-box;
-
-
-}
-
 .title-after-img {
     font-size: 14px;
-    line-height: 18px;
+    line-height: 21px;
     padding-top: 8px;
     padding-left: 2px;
     margin-bottom: 8px;
     display: inline-block;
     width: 98%;
-    height: 30px;
+    height: 47px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -279,78 +234,34 @@ a:hover .title-after-img h2.body-prj-title {
     border-bottom: 1px solid;
 }
 
-.grid-prj-tags {
-    font-size: 10px;
-    font-weight: 400;
-    text-transform: uppercase;
-    padding-left: 10px;
-    letter-spacing: 1;
-    display: inline-block;
-    margin-top: 5px;
-
-}
-
-.grid-prj-tags::before {
-    content: '→ ';
-}
-
-.grid-item:hover .grid-item-hover {
-    opacity: 1;
-    transition: 0.2s;
-    z-index: 100;
-    background-color: #F2F2F2;
-
-}
-
-.grid-item-smile-2 {
-    background-image: url(images/smile.png);
-    background-repeat: no-repeat;
-    background-size: 25px;
-    width: 25px;
-    height: 25px;
-    animation: smile-hue 3s infinite linear;
-    display: block;
-    margin-left: 9px;
-    margin-top: 3px;
-    display: inline-block;
-}
-
-
-.grid-item-hover .prj-title {
-    font-size: 23px;
-    padding-top: 8px;
-    padding-left: 10px;
-    line-height: 1.4;
-
-
-}
-
 .grid-prj-about {
     display: inline;
     font-style: italic;
 }
 
 body {
-    font-family: "The Future", Helvetica, "Aileron", Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 500;
+    font-family: "Marcin Antique", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
     line-height: 100%;
     letter-spacing: -0.3px;
     overflow-x: hidden;
     width: 100%;
     max-width: 100vw;
     color: black;
-    background-color: #ffffff;
+    background-color: $offwhite;
     -webkit-font-smoothing: antialiased;
-    /* Chrome, Safari */
-
 }
 
 h1 {
-    font-weight: 900;
-    font-size: 16px;
-    line-height: 16px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
     margin: 0;
+}
+
+strong {
+    font-weight: 700;
 }
 
 h2.prj-title {
@@ -365,8 +276,14 @@ h2.prj-title {
 }
 
 h2.body-prj-title {
+    font-weight: 600;
     font-size: 14px;
+    line-height: 20px;
     display: inline;
+}
+
+.body-prj-pub {
+    font-weight: 400;
 }
 
 .in-prj-title-col {
@@ -392,11 +309,15 @@ h2.black {
     border-bottom: 1px solid black;
 }
 
+.header-link.cta {
+    font-weight: 600;
+}
+
 h3.sub-title {
     font-size: 20px;
     font-weight: 700;
-    letter-spacing: normal;
-    margin-top: 45px;
+    letter-spacing: -0.5px;
+
     margin-bottom: 5px;
     line-height: 1.2;
     max-width: 90%;
@@ -460,17 +381,30 @@ h3.serif {
 }
 
 .header {
-    background-color: #F2F2F2;
     top: 0;
     z-index: 1000;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 20px;
+    transition: opacity 0.3s ease;
+}
+
+.logotype-header {
+}
+
+.op-0 {
+    opacity: 0;
+    display: none;
+}
+
+.op-1 {
+    opacity: 1;
+
 }
 
 .container-fluid.footer {
     background-color: #FF94C9;
     margin-bottom: -10px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 .footer,
@@ -497,8 +431,12 @@ h3.serif {
 
 .header-col {
     margin-bottom: 0px;
-    border-radius: 15px;
-    background-color: $off-white;
+    line-height: 21px;
+    border-left: 1px solid;
+}
+
+.header-col.title {
+    border-left: none;
 }
 
 .header::after,
@@ -531,15 +469,13 @@ h3.serif {
     line-height: 20px;
     font-weight: 400;
     letter-spacing: normal;
-    color: #f2f2f2;
-    background-color: black;
     padding-top: 10px;
     padding-bottom: 8px;
     z-index: 100;
 }
 
 .sub-header-perm-col {
-    font-weight: 500;
+    font-weight: 400;
 }
 
 #sub-header-collapse-col {
@@ -552,13 +488,12 @@ h3.serif {
 }
 
 .sub-header-col {
-    margin-bottom: 0px;
-    background-color: black;
+    border-left: 1px solid;
 }
 
 .header-row {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .sub-header-row {
@@ -608,16 +543,18 @@ button {
     line-height: inherit;
 }
 
-.sub-button,
-.fake-sub-button {
-    font-weight: 400;
+.header-link.tags {
+    font-weight: 600;
     text-transform: capitalize;
     text-decoration: none;
-    color: #f2f2f2;
     cursor: pointer;
     padding-bottom: 1px;
     margin-right: 4px;
-    margin-bottom: 6px
+}
+
+.tags-browse {
+    font-weight: 400;
+    margin-right: 6px;
 }
 
 .sub-button:hover,
@@ -625,7 +562,6 @@ button {
 ins.play-gif:hover {
     border-bottom: 1px solid;
     margin-bottom: 5px;
-    color: #f2f2f2;
 }
 
 .sub-button:focus,
@@ -636,24 +572,20 @@ ins.play-gif:hover {
 }
 
 h4.sub-header-subtitle {
-    font-family: "The Future", sans-serif;
+    font-family: "Marcin Antique", sans-serif;
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    color: #f2f2f2;
+
 }
 
 .sub-header-link {
-    color: #f2f2f2;
     display: inline-block;
-    margin-right: 4px;
-    margin-bottom: 7px;
+    margin-right: 6px;
 }
 
 .sub-header-link:hover {
-    color: #f2f2f2;
     border-bottom: 1px solid;
-    margin-bottom: 6px;
 }
 
 a.top-link:hover,
@@ -706,22 +638,17 @@ a.top-link.selected,
     font-size: 14px;
 }
 
-.cta {
-    font-weight: 700;
-    color: #FFB400 !important;
-    animation: smile-hue 3s infinite linear;
-}
-
 .main {
-    padding-top: 15px;
+    padding-top: 8px;
     padding-bottom: 30px;
     /* fucks scrolling */
     /* overflow-x: hidden; */
     height: 100%;
 }
 
-.main.index {
-    background-color: #ffffff;
+
+.main.about {
+    margin-top: 30px;
 }
 
 .container-fluid.contact {
@@ -729,12 +656,12 @@ a.top-link.selected,
 }
 
 .main.prj {
+    padding-top: 45px;
     background-color: #ffffff;
     padding-bottom: 0px;
 }
 
 .prj-sub-header {
-    background-color: #ebebeb;
 }
 
 
@@ -759,9 +686,13 @@ video::-webkit-media-controls {
 }
 
 .mono {
-    font-family: "The Future Mono", sans-serif;
+    font-family: "Marcin Antique Mono", sans-serif;
     font-size: 12px;
     letter-spacing: normal;
+}
+
+.prj-deet-col {
+    border-left: 1px solid;
 }
 
 .para-text-2,
@@ -770,20 +701,18 @@ video::-webkit-media-controls {
 .caption,
 .footnote,
 .footnotes {
-    font-family: "The Future Mono", sans-serif;
-    font-size: 11px;
-    letter-spacing: normal;
-    font-weight: 500;
-    line-height: 1.4;
+    font-family: "Marcin Antique", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
 }
 
 .prj-deet-link {
     text-decoration: underline;
-    color: gray;
 }
 
 .custom-credit-link:hover {
-    text-decoration: underline;
+    border-bottom: 1px solid;
 }
 
 .custom-credit-link::after {
@@ -809,7 +738,7 @@ video::-webkit-media-controls {
 }
 
 .prj-deet {
-    font-weight: 700;
+    font-weight: 600;
     display: block;
 }
 
@@ -842,25 +771,20 @@ video::-webkit-media-controls {
 .footnotes,
 .footnote,
 .list-item-divider {
-    color: #666 !important;
     margin-bottom: 0;
 
 }
 
 sup {
     color: darkgray;
-    font-weight: 500;
+    font-weight: 400;
 }
 
 .prj-deets {
     margin-top: 15px;
     column-span: all;
     font-size: 12px;
-    font-weight: 500;
-}
-
-.prj-deets-2 {
-    color: gray;
+    font-weight: 400;
 }
 
 .prj-tags {
@@ -871,7 +795,7 @@ p.text,
 p.more-text,
 p.quoted-text,
 p.para-text {
-    line-height: 1.6;
+    line-height: 21px;
     max-width: 100%;
 }
 
@@ -977,15 +901,17 @@ strong.fancy {
 }
 
 .grid-img {
+    border-radius: 8px;
     max-width: 100%;
-    &.index {
-    border-radius: 8px
-    }
 }
 
 
 .pdd-img {
     padding-bottom: 15px;
+}
+
+.about-row {
+    padding-top: 90px;
 }
 
 a.about-link {
@@ -1057,7 +983,7 @@ h3.prj-footer-sub-title {
 
 .hero-headline {
     font-family: gopher, sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     font-style: normal;
     font-size: 40px;
     line-height: 1.2;
@@ -1135,7 +1061,7 @@ input.button {
 }
 
 input.button {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 input.email::placeholder {
@@ -1190,6 +1116,10 @@ input.button:hover {
 
 @media (min-width: 576px) {
 
+    .main {
+        padding-top: 208px;
+    }
+
     .sub-header,
     .prj-after-header {
         padding-top: 100px;
@@ -1211,9 +1141,8 @@ input.button:hover {
     }
 
     .header-row {
-        margin-top: 4px;
-        margin-bottom: 4px;
-        background-color: transparent;
+        margin-top: 10px;
+        margin-bottom: 10px;
     }
 
 }
@@ -1222,27 +1151,22 @@ input.button:hover {
 
 @media (min-width: 768px) {
 
+    .main {
+        padding-top: 108px;
+    }
+
     .sub-header,
     .prj-after-header {
         padding-top: 75px;
     }
 
-    p.text,
-    p.more-text,
-    p.quoted-text,
-    p.para-text {
-        line-height: 1.6;
+    .logotype-header {
+        padding-bottom: 0px;
     }
 
     .list-prj-tags {
         padding: 0 0 0 0;
         margin: 0;
-    }
-
-    .split-2-md {
-
-        column-count: 2;
-        column-gap: 16px;
     }
 
     .b-img {
@@ -1272,21 +1196,6 @@ input.button:hover {
         padding-top: 55px;
     }
 
-    .pre-sub-spacer {
-        height: 22px;
-    }
-
-    .hero,
-    .pre-hero {
-        padding-top: 60px;
-    }
-
-    p.text,
-    p.more-text,
-    p.serif-text {
-        max-width: 90%;
-    }
-
     .split-2-md {
 
         column-count: initial;
@@ -1306,7 +1215,6 @@ input.button:hover {
     }
 
     .container-fluid.footer {
-
         bottom: 0;
     }
 
@@ -1328,7 +1236,7 @@ input.button:hover {
 
     .sub-header,
     .prj-after-header {
-        padding-top: 82px;
+        padding-top: 116px;
     }
 
 }
@@ -1342,47 +1250,4 @@ input.button:hover {
         padding-top: 94px;
     }
 
-}
-
-@media (pointer: fine) {
-
-    .list-item-smile,
-    .grid-item-smile {
-        background-image: url(images/smile.png);
-        background-repeat: no-repeat;
-        background-size: 20px;
-        display: none;
-        width: 20px;
-        height: 20px;
-        animation: smile-hue 3s infinite linear, smile-rotation 1.5s infinite linear;
-
-    }
-
-    .list-item-smile {
-        margin-left: 8px;
-        position: absolute;
-        bottom: 45px;
-        background-origin: padding-box;
-
-    }
-
-    .grid-item-smile {
-        position: relative;
-        top: 0px;
-        right: 5px;
-        background-origin: content-box;
-    }
-
-    .grid-item:hover .grid-item-smile {
-        display: inline;
-
-    }
-
-
-}
-
-@media (hover: none) {
-    .grid-item-hover {
-        display: none;
-    }
 }
