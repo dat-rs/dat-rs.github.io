@@ -284,6 +284,10 @@ h2.body-prj-title {
 
 .body-prj-pub {
     font-weight: 400;
+    &::before {
+        content: '■';
+        margin-right: 4px;
+    }
 }
 
 .in-prj-title-col {
