@@ -1,3 +1,6 @@
+---
+---
+
 @charset "UTF-8";
 /* CSS Document */
 
@@ -88,10 +91,9 @@ a {
 }
 
 .logotype-header {
-    max-width: 101%;
-    padding-top: 2px;
+    max-width: 100%;
     padding-bottom: 2px;
-    margin-left: -2px;
+    margin-left: -3px;
     padding-bottom: 15px;
 }
 
@@ -167,8 +169,6 @@ button {
     margin-bottom: 2px;
 }
 
-.prj-footer-title {}
-
 .title-col {
     margin-bottom: 0;
 }
@@ -218,7 +218,7 @@ button {
 
 .title-after-img {
     font-size: 14px;
-    line-height: 21px;
+    line-height: 17px;
     padding-top: 8px;
     padding-left: 2px;
     margin-bottom: 8px;
@@ -249,7 +249,7 @@ body {
     width: 100%;
     max-width: 100vw;
     color: black;
-    background-color: $offwhite;
+    background-color: #faf7f2;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -304,9 +304,8 @@ h2.black {
 }
 
 .header-link {
-    font-size: 14px;
     font-weight: 600;
-    line-height: 20px;
+    line-height: 17px;
 }
 
 .header-link:hover {
@@ -330,26 +329,6 @@ h3.sub-title {
 
 h3.sub-title.top-30 {
     margin-top: 30px;
-}
-
-.yellow {
-    color: #FFA62B;
-}
-
-.red {
-    color: #F05F2C;
-}
-
-.pink {
-    color: #FF94C9;
-}
-
-.teal {
-    color: #5CB9CC;
-}
-
-.green {
-    color: #7A8A3D;
 }
 
 h3.sub-sub {
@@ -392,9 +371,6 @@ h3.serif {
     transition: opacity 0.3s ease;
 }
 
-.logotype-header {
-}
-
 .op-0 {
     opacity: 0;
     display: none;
@@ -408,7 +384,7 @@ h3.serif {
 .container-fluid.footer {
     background-color: #FF94C9;
     margin-bottom: -10px;
-    padding-bottom: 15px;
+    padding-bottom: 0px;
 }
 
 .footer,
@@ -435,12 +411,18 @@ h3.serif {
 
 .header-col {
     margin-bottom: 0px;
-    line-height: 21px;
+    font-size: 13px;
+    line-height: 17px;
     border-left: 1px solid;
-}
-
-.header-col.title {
-    border-left: none;
+    &.title {
+        border-left: none;
+    }
+    &.gone-girl-border-sm {
+        border-left: none;
+        @media (min-width: 768px) {
+            border-left: 1px solid;
+        }
+    }
 }
 
 .header::after,
@@ -497,7 +479,8 @@ h3.serif {
 
 .header-row {
     margin-top: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 0px;
+
 }
 
 .sub-header-row {
@@ -552,7 +535,6 @@ button {
     text-transform: capitalize;
     text-decoration: none;
     cursor: pointer;
-    padding-bottom: 1px;
     margin-right: 4px;
 }
 
@@ -660,15 +642,9 @@ a.top-link.selected,
 }
 
 .main.prj {
-    padding-top: 45px;
-    background-color: #ffffff;
+    padding-top: 20px;
     padding-bottom: 0px;
 }
-
-.prj-sub-header {
-}
-
-
 
 .blog {
     margin-top: 32px;
@@ -765,11 +741,6 @@ video::-webkit-media-controls {
 .hanging.reversed::before {
     background-color: #F2F2F2;
 }
-
-.new-link,
-.prj-footer-link {}
-
-
 
 .caption,
 .footnotes,
@@ -933,11 +904,6 @@ a.about-link {
 .top-pdd-row {
     padding-top: 30px;
 }
-
-#play-p,
-#play-l,
-#play-a,
-#play-y {}
 
 #play-p,
 #play-a {
@@ -1105,6 +1071,144 @@ input.button:hover {
     line-height: 1.4;
 }
 
+/* Mega Deck */
+
+$subtract-fold: 100px;
+
+.container-fluid.slideshow {
+    height: calc(100vh - 68px);
+    width: 100vw;
+    overflow: hidden;
+    z-index: 1000;
+    background-color: beige;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+.hidden {
+    visibility: hidden;
+    transition: visibility 0.5s ease-in-out;
+}
+
+.visible {
+    visibility: visible;
+    transition: visibility 0.5s ease-in-out;
+}
+
+.container-fluid.above-the-fold {
+    display: block;
+    overflow: hidden;
+    height: calc(100vh - 68px);
+    /*margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 8px;
+    border-radius: 15px;
+    width: auto; */
+}
+
+.wrapper.above-the-fold {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: calc(100vh - 68px);
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    transition: visibility 0.5s ease-in-out;
+    &#slide-1 {
+        background-image: url("/images/indie-26-culturgest-2.jpg");
+    }
+    &#slide-2 {
+        background-image: url("/images/indie-26-sjorge-lencol.jpg");
+    }
+    &#slide-3 {
+        background-image: url("/images/indie-26-night-poster.jpg");
+    }
+    &#slide-4 {
+        background-image: url("/images/indie-26-programa.jpg");
+    }
+    &#slide-5 {
+        background-image: url("/images/indie-26-junior-poster.jpg");
+    }
+    &#slide-6 {
+        background-image: url("/images/branko-soma-photo-front.jpg");
+    }
+    &#slide-7 {
+        background-image: url("/images/branko-soma-photo-sleeve.jpg");
+    }
+    &#slide-8 {
+        background-image: url("/images/branko-soma-photo-back-2.jpg");
+    }
+    &#slide-9 {
+        background-image: url("/images/screenland-kevin-photo.jpg");
+    }
+    &#slide-10 {
+        background-image: url("/images/zeit-sin-slide-1.jpg");
+    }
+    &#slide-11 {
+        background-image: url("/images/zeit-sin-slide-2.jpg");
+    }
+    &#slide-12 {
+        background-image: url("/images/sv-malcolm-detail-1-2.jpg");
+    }
+    &#slide-13 {
+        background-image: url("/images/sv-pistols-detail-5-2.jpg");
+    }
+    &#slide-14 {
+        background-image: url("/images/sv-malcolm-detail-2-2.jpg");
+    }
+    &#slide-15 {
+        background-image: url("/images/melocactus-slide.jpg");
+    }
+
+}
+
+.row.atf {
+    padding-top: 18px;
+    padding-bottom: 15px;
+    align-items: end;
+}
+
+.text-fold {
+    background-color: white;
+    padding: 4px 5px 3px 5px;
+    margin-right: 3px;
+    transition: opacity 0.5s ease-in;
+    &.pink {
+        background-color: #FF94C9;
+    }
+
+}
+
+.col-atf {
+    line-height: 21px;
+    border-left: 1px solid;
+    &.first {
+        border-left: none;
+    }
+}
+
+.img-preloader {
+    width: 0px;
+    height: 0px;
+    visibility: hidden;
+    display: none;
+    z-index: -100;
+}
+
+img.slideshow {
+    width: 100%;
+    height: 100%;
+}
+
+.first-prj-col-12-fix {
+    margin-top: 0px;
+}
+
 @keyframes slide {
     0% {
         transform: translate3d(0, 0, 0);
@@ -1121,12 +1225,12 @@ input.button:hover {
 @media (min-width: 576px) {
 
     .main {
-        padding-top: 208px;
+        padding-top: 8px;
     }
 
     .sub-header,
     .prj-after-header {
-        padding-top: 100px;
+        padding-top: 8px;
     }
 
 
@@ -1141,7 +1245,8 @@ input.button:hover {
     }
 
     .header {
-        position: fixed;
+        position: sticky;
+        container-type: scroll-state;
     }
 
     .header-row {
@@ -1151,17 +1256,14 @@ input.button:hover {
 
 }
 
+@container scroll-state (stuck: top)
+
 /* md */
 
 @media (min-width: 768px) {
 
     .main {
-        padding-top: 108px;
-    }
-
-    .sub-header,
-    .prj-after-header {
-        padding-top: 75px;
+        padding-top: 30px;
     }
 
     .logotype-header {
@@ -1195,11 +1297,6 @@ input.button:hover {
 
 @media (min-width: 992px) {
 
-    .sub-header,
-    .prj-after-header {
-        padding-top: 55px;
-    }
-
     .split-2-md {
 
         column-count: initial;
@@ -1228,20 +1325,9 @@ input.button:hover {
 
 @media (min-width: 1200px) {
 
-    .sub-header,
-    .prj-after-header {
-        padding-top: 60px;
-    }
-}
-
 /* xxl */
 
 @media (min-width: 1400px) {
-
-    .sub-header,
-    .prj-after-header {
-        padding-top: 116px;
-    }
 
 }
 

@@ -1,0 +1,67 @@
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css" />
+
+<script>
+      var i = -1;
+            var slides = [];
+            var slideTime = 2000; // milliseconds
+
+            // Generate slide array automatically
+            for (let j = 1; j <= 15; j++) {
+                  slides[j - 1] = 'slide-' + j;
+            }
+
+            
+            function changeSlide() {
+                  if (i >= 0) {
+                        document.getElementById(slides[i]).classList.remove('visible');
+                        document.getElementById(slides[i]).classList.add('hidden');
+                  }
+
+                  i++;
+
+                  if (i === slides.length) {
+                        i = 0;
+                  }
+                  
+                  document.getElementById(slides[i]).classList.remove('hidden');
+                  document.getElementById(slides[i]).classList.add('visible');
+
+                  setTimeout(changeSlide, slideTime);
+            }
+
+            window.onload = changeSlide;
+</script>
+
+<script>
+      const header = document.getElementById("header");
+      const header_logo = document.getElementById("h1-img");
+      const header_text = document.getElementById("h1-txt");
+
+      window.addEventListener("scroll", () => {
+            // const vh = window.innerHeight - 80;
+            if (window.scrollY === 0) {
+                  // At the top
+                  document.getElementById("h1-txt").classList.add('op-0');
+                  document.getElementById("h1-img").classList.remove('op-0');
+                  // document.getElementById("header-block-3").classList.remove('op-0');
+
+            } else {
+                  // Any scroll down
+                  document.getElementById("h1-img").classList.add('op-0');
+                  document.getElementById("h1-txt").classList.remove('op-0');
+                  // document.getElementById("header-block-3").classList.add('op-0');
+
+            }
+      });
+
+</script>
