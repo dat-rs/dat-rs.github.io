@@ -12,7 +12,7 @@ regenerate: true
 <body id="index">
 
       {% include above-the-fold.html %}
-      {% include header-proper.html %}
+      {% include header-proper-dev.html %}
 
       <div class="container-fluid main index">
 
@@ -30,8 +30,8 @@ regenerate: true
 
                               <div class="title-after-img">
                                     <h2 class="body-prj-title">
-                                          {{ project.title }} <br>
-                                          {% if project.pub %}
+                                          {{ project.title }}
+                                          {% if project.pub %} <br>
                                           <span class="body-prj-pub">{{ project.pub }}</span>
                                           {% endif %}
                                     </h2>
